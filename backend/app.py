@@ -343,24 +343,77 @@ def create_app() -> Flask:
                     logger.warning(f"Template file not found: {template_name}")
 
             try:
-                result = subprocess.run(
-                    cmd,
-                    check=True,
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.PIPE,
-                    text=True,
-                    timeout=60  # 60秒超时
-                )
-                logger.info(f"Pandoc conversion successful for {file.filename}")
+                # 保存当前工作目录并切换到临时目录，确保相对图片路径能正确解析
+                original_cwd = os.getcwd()
+                pandoc_work_dir = tmpdir_path
+
+                logger.info(f"Original working directory: {original_cwd}")
+                logger.info(f"Changing to Pandoc working directory: {pandoc_work_dir}")
+                logger.info(f"Input file: {input_path}")
+                logger.info(f"Output file: {output_path}")
+
+                # 检查工作目录中的images文件夹是否存在
+                workdir_images = tmpdir_path / "images"
+                if workdir_images.exists():
+                    image_files = list(workdir_images.glob("*.png"))
+                    logger.info(f"Found {len(image_files)} images in working directory: {workdir_images}")
+                    for img in image_files[:3]:  # 显示前3个图片文件名
+                        logger.info(f"  - {img.name}")
+                else:
+                    logger.warning(f"Images directory not found in working directory: {workdir_images}")
+
+                # 切换到临时目录
+                os.chdir(pandoc_work_dir)
+
+                try:
+                    # 在临时目录中执行Pandoc
+                    result = subprocess.run(
+                        cmd,
+                        check=True,
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.PIPE,
+                        text=True,
+                        timeout=60,  # 60秒超时
+                        cwd=pandoc_work_dir  # 明确指定工作目录
+                    )
+                    logger.info(f"Pandoc conversion successful for {file.filename}")
+                    logger.info(f"Pandoc stdout: {result.stdout.strip()}")
+
+                finally:
+                    # 无论成功失败都要恢复原工作目录
+                    os.chdir(original_cwd)
+                    logger.info(f"Restored working directory to: {original_cwd}")
+
             except subprocess.TimeoutExpired:
+                # 确保在异常情况下也恢复工作目录
+                try:
+                    if 'original_cwd' in locals():
+                        os.chdir(original_cwd)
+                        logger.info(f"Restored working directory after timeout to: {original_cwd}")
+                except Exception as e:
+                    logger.error(f"Failed to restore working directory: {e}")
                 logger.error(f"Pandoc conversion timeout for {file.filename}")
                 return {"error": "Conversion timeout - file may be too large or complex"}, 500
             except FileNotFoundError:
+                # 确保在异常情况下也恢复工作目录
+                try:
+                    if 'original_cwd' in locals():
+                        os.chdir(original_cwd)
+                        logger.info(f"Restored working directory after FileNotFoundError to: {original_cwd}")
+                except Exception as e:
+                    logger.error(f"Failed to restore working directory: {e}")
                 logger.error("Pandoc not found during conversion")
                 return {
                     "error": "Pandoc not found. Please install pandoc and ensure it is in PATH."
                 }, 500
             except subprocess.CalledProcessError as exc:
+                # 确保在异常情况下也恢复工作目录
+                try:
+                    if 'original_cwd' in locals():
+                        os.chdir(original_cwd)
+                        logger.info(f"Restored working directory after CalledProcessError to: {original_cwd}")
+                except Exception as e:
+                    logger.error(f"Failed to restore working directory: {e}")
                 logger.error(f"Pandoc conversion failed for {file.filename}: {exc.stderr}")
                 return {
                     "error": "Pandoc conversion failed",
