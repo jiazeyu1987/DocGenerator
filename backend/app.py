@@ -10,9 +10,17 @@ from threading import Timer
 
 from flask import Flask, request, send_file, jsonify
 from flask_cors import CORS
+from mermaid_processor import MermaidProcessor
 
-# 设置日志
-logging.basicConfig(level=logging.INFO)
+# 设置详细的日志记录
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),  # 控制台输出
+        logging.FileHandler('docgen.log', encoding='utf-8')  # 文件输出
+    ]
+)
 logger = logging.getLogger(__name__)
 
 # 全局字典存储需要清理的临时文件
@@ -97,6 +105,90 @@ def check_pandoc_available() -> bool:
         return True
     except (subprocess.CalledProcessError, FileNotFoundError, subprocess.TimeoutExpired):
         return False
+
+
+def process_mermaid_blocks_detailed(markdown_text: str, workdir: Path) -> str:
+    """
+    使用MermaidProcessor处理Markdown中的Mermaid代码块
+    包含详细的日志记录和错误处理
+    """
+    logger.info("=== Starting Mermaid processing ===")
+    logger.info(f"Work directory: {workdir}")
+    logger.info(f"Input text length: {len(markdown_text)} characters")
+    logger.info(f"Test mode: {os.environ.get('MERMAID_TEST_MODE', 'false')}")
+
+    # 确保workdir的images目录存在（用于Pandoc处理）
+    workdir_images = workdir / "images"
+    workdir_images.mkdir(exist_ok=True)
+    logger.info(f"Workdir images directory: {workdir_images}")
+
+    try:
+        # 使用MermaidProcessor处理（图片将保存到项目images目录）
+        with MermaidProcessor() as processor:
+            logger.info("MermaidProcessor initialized successfully")
+
+            # 提取Mermaid块
+            processed_content, mermaid_blocks = processor.extract_mermaid_blocks(markdown_text)
+            logger.info(f"Extracted {len(mermaid_blocks)} Mermaid blocks")
+
+            if not mermaid_blocks:
+                logger.info("No Mermaid blocks found, returning original content")
+                return markdown_text
+
+            # 详细记录每个块的信息
+            for i, block in enumerate(mermaid_blocks):
+                logger.info(f"Block {i+1}: {block['id']}")
+                logger.info(f"  - Filename: {block['filename']}")
+                logger.info(f"  - Code preview: {block['code'][:100]}...")
+
+            # 处理所有Mermaid块（生成到项目images目录）
+            successful_images, failed_blocks = processor.process_all_mermaid_blocks(str(workdir))
+            logger.info(f"Processing results: {len(successful_images)} successful, {len(failed_blocks)} failed")
+
+            # 将生成的图片复制到工作目录的images文件夹（供Pandoc使用）
+            copied_images = []
+            for img_path in successful_images:
+                if os.path.exists(img_path):
+                    file_size = os.path.getsize(img_path)
+                    logger.info(f"✓ Generated project image: {img_path} ({file_size} bytes)")
+
+                    # 复制到工作目录的images文件夹
+                    filename = os.path.basename(img_path)
+                    workdir_img_path = workdir_images / filename
+                    try:
+                        import shutil
+                        shutil.copy2(img_path, workdir_img_path)
+                        copied_images.append(str(workdir_img_path))
+                        logger.info(f"✓ Copied image to workdir: {workdir_img_path}")
+                    except Exception as e:
+                        logger.error(f"✗ Failed to copy {img_path} to workdir: {e}")
+                else:
+                    logger.warning(f"Image path reported as successful but file not found: {img_path}")
+
+            # 记录失败的块
+            if failed_blocks:
+                logger.error(f"Failed blocks indices: {failed_blocks}")
+                for index in failed_blocks:
+                    if index < len(mermaid_blocks):
+                        block = mermaid_blocks[index]
+                        logger.error(f"  - Failed block: {block['id']}")
+
+            # 恢复失败的块
+            if failed_blocks:
+                processed_content = processor.restore_failed_blocks(processed_content, failed_blocks)
+                logger.info(f"Restored {len(failed_blocks)} failed blocks to original format")
+
+            logger.info("=== Mermaid processing completed ===")
+            return processed_content
+
+    except Exception as e:
+        logger.error(f"Exception in Mermaid processing: {e}")
+        logger.error(f"Exception type: {type(e).__name__}")
+        import traceback
+        logger.error(f"Traceback: {traceback.format_exc()}")
+        # 发生异常时返回原始内容，让用户知道处理失败但可以继续
+        logger.warning("Returning original content due to processing error")
+        return markdown_text
 
 def create_app() -> Flask:
     app = Flask(__name__)
@@ -196,6 +288,49 @@ def create_app() -> Flask:
 
         try:
             file.save(input_path)
+
+            # 在调用 Pandoc 之前，先把 Markdown 中的 mermaid 代码块转换成图片
+            try:
+                logger.info(f"Starting Mermaid processing for file: {file.filename}")
+                markdown_text = input_path.read_text(encoding="utf-8")
+                logger.info(f"Successfully read markdown file, length: {len(markdown_text)} characters")
+
+                # 检查是否包含Mermaid代码块
+                if "```mermaid" in markdown_text.lower():
+                    logger.info("Mermaid code blocks detected in the input")
+                    processed_markdown = process_mermaid_blocks_detailed(markdown_text, tmpdir_path)
+
+                    if processed_markdown != markdown_text:
+                        input_path.write_text(processed_markdown, encoding="utf-8")
+                        logger.info("Successfully processed mermaid blocks and updated input file for %s", file.filename)
+                    else:
+                        logger.info("Mermaid processing completed but content unchanged for %s", file.filename)
+                else:
+                    logger.info("No Mermaid code blocks found in the input file")
+
+            except UnicodeDecodeError as e:
+                logger.error(f"Failed to decode markdown file as UTF-8: {file.filename}, error: {e}")
+                logger.warning("Continuing with Pandoc conversion using original file")
+            except Exception as e:
+                # Mermaid 处理失败时记录详细错误但不中断转换
+                logger.error(f"Mermaid processing failed for {file.filename}: {e}")
+                logger.error(f"Exception type: {type(e).__name__}")
+                import traceback
+                logger.error(f"Traceback: {traceback.format_exc()}")
+
+                # 检查是否是RuntimeError（来自原有的mermaid处理）
+                if isinstance(e, RuntimeError):
+                    logger.error("Critical Mermaid processing error, aborting conversion")
+                    # 出错时立即清理临时目录
+                    try:
+                        if tmpdir_path.exists():
+                            shutil.rmtree(tmpdir_path, ignore_errors=True)
+                            logger.info(f"Cleaned up temporary directory due to mermaid error: {tmpdir_path}")
+                    except Exception:
+                        pass
+                    return {"error": f"Mermaid processing failed: {str(e)}"}, 500
+                else:
+                    logger.warning("Non-critical Mermaid processing error, continuing with Pandoc conversion using original file")
 
             cmd = ["pandoc", str(input_path), "-o", str(output_path)]
 
