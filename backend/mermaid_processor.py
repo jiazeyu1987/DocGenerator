@@ -88,7 +88,7 @@ class MermaidProcessor:
             image_filename = f"{block_id}.png"
 
             # 创建图片引用 - 使用相对路径，Pandoc会正确处理
-            image_reference = f"![Mermaid图表](images/{image_filename})"
+            image_reference = f"![图表](images/{image_filename})"
 
             # 记录Mermaid块信息
             mermaid_block = {
