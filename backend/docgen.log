@@ -1,1041 +1,114 @@
-2025-11-30 23:15:48,255 - __main__ - INFO - Pandoc is available
-2025-11-30 23:15:48,264 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:15:48,267 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:15:50,581 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\app.py', reloading
-2025-11-30 23:15:50,582 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\app.py.tmp.15072.1764515750570', reloading
-2025-11-30 23:15:51,580 - __main__ - INFO - Pandoc is available
-2025-11-30 23:15:51,590 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:15:51,592 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:16:05,763 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\app.py', reloading
-2025-11-30 23:16:05,763 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\app.py.tmp.15072.1764515765753', reloading
-2025-11-30 23:16:07,003 - __main__ - INFO - Pandoc is available
-2025-11-30 23:16:07,013 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:16:07,015 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:16:21,824 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\app.py', reloading
-2025-11-30 23:16:21,825 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\app.py.tmp.15072.1764515781819', reloading
-2025-11-30 23:16:22,343 - __main__ - INFO - Pandoc is available
-2025-11-30 23:16:22,353 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:16:22,356 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:16:40,290 - __main__ - INFO - Pandoc is available
-2025-11-30 23:16:45,448 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-11-30 23:54:01,128 - __main__ - INFO - Pandoc is available
+2025-11-30 23:54:06,301 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://26.26.26.1:5000
-2025-11-30 23:16:45,449 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-11-30 23:16:45,457 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:16:45,586 - __main__ - INFO - Starting conversion for file: test_mermaid.md
-2025-11-30 23:16:45,588 - __main__ - INFO - Starting Mermaid processing for file: test_mermaid.md
-2025-11-30 23:16:45,595 - __main__ - INFO - Successfully read markdown file, length: 875 characters
-2025-11-30 23:16:45,595 - __main__ - INFO - Mermaid code blocks detected in the input
-2025-11-30 23:16:45,595 - __main__ - INFO - === Starting Mermaid processing ===
-2025-11-30 23:16:45,595 - __main__ - INFO - Work directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmp5or7rs48
-2025-11-30 23:16:45,595 - __main__ - INFO - Input text length: 875 characters
-2025-11-30 23:16:45,596 - __main__ - INFO - Test mode: false
-2025-11-30 23:16:45,596 - __main__ - INFO - Images directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmp5or7rs48\images
-2025-11-30 23:16:45,597 - __main__ - INFO - MermaidProcessor initialized successfully
-2025-11-30 23:16:45,597 - mermaid_processor - INFO - Extracted Mermaid block diagram-1-24de729b: flowchart TD
-    A[Start] --> B{Is it working?}
-  ...
-2025-11-30 23:16:45,597 - mermaid_processor - INFO - Extracted Mermaid block diagram-2-a068552d: sequenceDiagram
-    participant Client
-    partici...
-2025-11-30 23:16:45,597 - mermaid_processor - INFO - Extracted Mermaid block diagram-3-5127d9c2: graph LR
-    A-->B
-    B-->C
-    C-->D
-    D-->A...
-2025-11-30 23:16:45,597 - mermaid_processor - INFO - Found 3 Mermaid diagram(s)
-2025-11-30 23:16:45,597 - __main__ - INFO - Extracted 3 Mermaid blocks
-2025-11-30 23:16:45,597 - __main__ - INFO - Block 1: diagram-1-24de729b
-2025-11-30 23:16:45,598 - __main__ - INFO -   - Filename: diagram-1-24de729b.png
-2025-11-30 23:16:45,598 - __main__ - INFO -   - Code preview: flowchart TD
-    A[Start] --> B{Is it working?}
-    B -->|Yes| C[Process Diagram]
-    B -->|No| D[De...
-2025-11-30 23:16:45,598 - __main__ - INFO - Block 2: diagram-2-a068552d
-2025-11-30 23:16:45,598 - __main__ - INFO -   - Filename: diagram-2-a068552d.png
-2025-11-30 23:16:45,598 - __main__ - INFO -   - Code preview: sequenceDiagram
-    participant Client
-    participant Server
-    participant Database
-
-    Client->...
-2025-11-30 23:16:45,598 - __main__ - INFO - Block 3: diagram-3-5127d9c2
-2025-11-30 23:16:45,598 - __main__ - INFO -   - Filename: diagram-3-5127d9c2.png
-2025-11-30 23:16:45,598 - __main__ - INFO -   - Code preview: graph LR
-    A-->B
-    B-->C
-    C-->D
-    D-->A...
-2025-11-30 23:16:45,599 - mermaid_processor - INFO - Mermaid images will be saved to: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_znfj7qhv
-2025-11-30 23:16:45,599 - mermaid_processor - INFO - Processing Mermaid block 1/3: diagram-1-24de729b
-2025-11-30 23:16:45,599 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmpz7xmean6.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_znfj7qhv\diagram-1-24de729b.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:16:45,612 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:16:45,612 - mermaid_processor - ERROR - ✗ Failed to convert diagram-1-24de729b
-2025-11-30 23:16:45,612 - mermaid_processor - INFO - Processing Mermaid block 2/3: diagram-2-a068552d
-2025-11-30 23:16:45,613 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmp7mnpn7od.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_znfj7qhv\diagram-2-a068552d.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:16:45,626 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:16:45,626 - mermaid_processor - ERROR - ✗ Failed to convert diagram-2-a068552d
-2025-11-30 23:16:45,626 - mermaid_processor - INFO - Processing Mermaid block 3/3: diagram-3-5127d9c2
-2025-11-30 23:16:45,627 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmp9_p_9zre.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_znfj7qhv\diagram-3-5127d9c2.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:16:45,640 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:16:45,640 - mermaid_processor - ERROR - ✗ Failed to convert diagram-3-5127d9c2
-2025-11-30 23:16:45,640 - mermaid_processor - INFO - Mermaid processing completed: 0 successful, 3 failed
-2025-11-30 23:16:45,640 - __main__ - INFO - Processing results: 0 successful, 3 failed
-2025-11-30 23:16:45,641 - __main__ - ERROR - Failed blocks indices: [0, 1, 2]
-2025-11-30 23:16:45,641 - __main__ - ERROR -   - Failed block: diagram-1-24de729b
-2025-11-30 23:16:45,641 - __main__ - ERROR -   - Failed block: diagram-2-a068552d
-2025-11-30 23:16:45,641 - __main__ - ERROR -   - Failed block: diagram-3-5127d9c2
-2025-11-30 23:16:45,641 - mermaid_processor - INFO - Restored original Mermaid block: diagram-3-5127d9c2
-2025-11-30 23:16:45,641 - mermaid_processor - INFO - Restored original Mermaid block: diagram-2-a068552d
-2025-11-30 23:16:45,641 - mermaid_processor - INFO - Restored original Mermaid block: diagram-1-24de729b
-2025-11-30 23:16:45,641 - __main__ - INFO - Restored 3 failed blocks to original format
-2025-11-30 23:16:45,641 - __main__ - INFO - === Mermaid processing completed ===
-2025-11-30 23:16:45,641 - mermaid_processor - INFO - Cleaned up temporary directory: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_znfj7qhv
-2025-11-30 23:16:45,641 - __main__ - INFO - Mermaid processing completed but content unchanged for test_mermaid.md
-2025-11-30 23:16:45,769 - __main__ - INFO - Pandoc is available
-2025-11-30 23:16:45,779 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:16:45,781 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:16:45,816 - __main__ - INFO - Pandoc conversion successful for test_mermaid.md
-2025-11-30 23:16:45,826 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:16:45] "POST /api/convert HTTP/1.1" 200 -
-2025-11-30 23:17:07,826 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:17:07] "GET /api/health HTTP/1.1" 200 -
-2025-11-30 23:18:03,925 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:18:03] "GET /api/templates HTTP/1.1" 200 -
-2025-11-30 23:18:03,928 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:18:03] "GET /api/templates HTTP/1.1" 200 -
-2025-11-30 23:18:03,953 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:18:03] "GET /api/health HTTP/1.1" 200 -
-2025-11-30 23:18:03,985 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:18:03] "GET /api/health HTTP/1.1" 200 -
-2025-11-30 23:18:12,567 - __main__ - INFO - Starting conversion for file: HEM_Analyzer_专利交底书.md
-2025-11-30 23:18:12,568 - __main__ - INFO - Starting Mermaid processing for file: HEM_Analyzer_专利交底书.md
-2025-11-30 23:18:12,576 - __main__ - INFO - Successfully read markdown file, length: 12672 characters
-2025-11-30 23:18:12,577 - __main__ - INFO - Mermaid code blocks detected in the input
-2025-11-30 23:18:12,577 - __main__ - INFO - === Starting Mermaid processing ===
-2025-11-30 23:18:12,577 - __main__ - INFO - Work directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpz8h8slgl
-2025-11-30 23:18:12,577 - __main__ - INFO - Input text length: 12672 characters
-2025-11-30 23:18:12,577 - __main__ - INFO - Test mode: false
-2025-11-30 23:18:12,578 - __main__ - INFO - Images directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpz8h8slgl\images
-2025-11-30 23:18:12,578 - __main__ - INFO - MermaidProcessor initialized successfully
-2025-11-30 23:18:12,578 - mermaid_processor - INFO - Extracted Mermaid block diagram-1-713cdd93: graph TD
+2025-11-30 23:54:06,302 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-30 23:54:06,310 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-30 23:54:06,572 - __main__ - INFO - Pandoc is available
+2025-11-30 23:54:06,583 - werkzeug - WARNING -  * Debugger is active!
+2025-11-30 23:54:06,585 - werkzeug - INFO -  * Debugger PIN: 637-448-104
+2025-11-30 23:54:07,028 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:07] "GET /api/templates HTTP/1.1" 200 -
+2025-11-30 23:54:07,033 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:07] "GET /api/templates HTTP/1.1" 200 -
+2025-11-30 23:54:07,064 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:07] "GET /api/health HTTP/1.1" 200 -
+2025-11-30 23:54:07,098 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:07] "GET /api/health HTTP/1.1" 200 -
+2025-11-30 23:54:09,892 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:09] "GET /api/templates HTTP/1.1" 200 -
+2025-11-30 23:54:09,895 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:09] "GET /api/templates HTTP/1.1" 200 -
+2025-11-30 23:54:09,922 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:09] "GET /api/health HTTP/1.1" 200 -
+2025-11-30 23:54:09,964 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:09] "GET /api/health HTTP/1.1" 200 -
+2025-11-30 23:54:35,259 - __main__ - INFO - Starting conversion for file: HEM_Analyzer_专利交底书.md
+2025-11-30 23:54:35,260 - __main__ - INFO - Starting Mermaid processing for file: HEM_Analyzer_专利交底书.md
+2025-11-30 23:54:35,270 - __main__ - INFO - Successfully read markdown file, length: 12672 characters
+2025-11-30 23:54:35,270 - __main__ - INFO - Mermaid code blocks detected in the input
+2025-11-30 23:54:35,271 - __main__ - INFO - === Starting Mermaid processing ===
+2025-11-30 23:54:35,271 - __main__ - INFO - Work directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmps1d9hp67
+2025-11-30 23:54:35,271 - __main__ - INFO - Input text length: 12672 characters
+2025-11-30 23:54:35,271 - __main__ - INFO - Test mode: false
+2025-11-30 23:54:35,272 - __main__ - INFO - Workdir images directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmps1d9hp67\images
+2025-11-30 23:54:35,273 - __main__ - INFO - MermaidProcessor initialized successfully
+2025-11-30 23:54:35,273 - mermaid_processor - INFO - Extracted Mermaid block diagram-1-91a5c3ac: graph TD
     A[视频输入] --> B[格式检测与预处理]
     B --> C[R...
-2025-11-30 23:18:12,578 - mermaid_processor - INFO - Extracted Mermaid block diagram-2-6be78354: flowchart TD
+2025-11-30 23:54:35,273 - mermaid_processor - INFO - Extracted Mermaid block diagram-2-4b6c98ed: flowchart TD
     A[开始处理视频帧] --> B[提取ROI区域]
     B -...
-2025-11-30 23:18:12,578 - mermaid_processor - INFO - Extracted Mermaid block diagram-3-f143d629: flowchart TD
+2025-11-30 23:54:35,273 - mermaid_processor - INFO - Extracted Mermaid block diagram-3-2271bf5a: flowchart TD
     A[视频帧输入] --> B[计算基础曲线]
     B --> ...
-2025-11-30 23:18:12,579 - mermaid_processor - INFO - Extracted Mermaid block diagram-4-29cf8d90: flowchart TD
+2025-11-30 23:54:35,273 - mermaid_processor - INFO - Extracted Mermaid block diagram-4-83c42cc2: flowchart TD
     A[用户上传视频] --> B[选择ROI区域]
     B --...
-2025-11-30 23:18:12,579 - mermaid_processor - INFO - Found 4 Mermaid diagram(s)
-2025-11-30 23:18:12,579 - __main__ - INFO - Extracted 4 Mermaid blocks
-2025-11-30 23:18:12,579 - __main__ - INFO - Block 1: diagram-1-713cdd93
-2025-11-30 23:18:12,579 - __main__ - INFO -   - Filename: diagram-1-713cdd93.png
-2025-11-30 23:18:12,579 - __main__ - INFO -   - Code preview: graph TD
+2025-11-30 23:54:35,273 - mermaid_processor - INFO - Found 4 Mermaid diagram(s)
+2025-11-30 23:54:35,274 - __main__ - INFO - Extracted 4 Mermaid blocks
+2025-11-30 23:54:35,274 - __main__ - INFO - Block 1: diagram-1-91a5c3ac
+2025-11-30 23:54:35,274 - __main__ - INFO -   - Filename: diagram-1-91a5c3ac.png
+2025-11-30 23:54:35,274 - __main__ - INFO -   - Code preview: graph TD
     A[视频输入] --> B[格式检测与预处理]
     B --> C[ROI选择界面]
     C --> D[参数配置]
     D --> E[帧采样处理]
     E...
-2025-11-30 23:18:12,579 - __main__ - INFO - Block 2: diagram-2-6be78354
-2025-11-30 23:18:12,579 - __main__ - INFO -   - Filename: diagram-2-6be78354.png
-2025-11-30 23:18:12,580 - __main__ - INFO -   - Code preview: flowchart TD
+2025-11-30 23:54:35,274 - __main__ - INFO - Block 2: diagram-2-4b6c98ed
+2025-11-30 23:54:35,274 - __main__ - INFO -   - Filename: diagram-2-4b6c98ed.png
+2025-11-30 23:54:35,275 - __main__ - INFO -   - Code preview: flowchart TD
     A[开始处理视频帧] --> B[提取ROI区域]
     B --> C[计算ROI平均像素值]
     C --> D{平均像素值 > 阈值1?}
     D -...
-2025-11-30 23:18:12,580 - __main__ - INFO - Block 3: diagram-3-f143d629
-2025-11-30 23:18:12,580 - __main__ - INFO -   - Filename: diagram-3-f143d629.png
-2025-11-30 23:18:12,580 - __main__ - INFO -   - Code preview: flowchart TD
+2025-11-30 23:54:35,275 - __main__ - INFO - Block 3: diagram-3-2271bf5a
+2025-11-30 23:54:35,275 - __main__ - INFO -   - Filename: diagram-3-2271bf5a.png
+2025-11-30 23:54:35,275 - __main__ - INFO -   - Code preview: flowchart TD
     A[视频帧输入] --> B[计算基础曲线]
     B --> C[并行执行三种算法]
     C --> C1[突变检测]
     C --> C2[阈值检测]
 ...
-2025-11-30 23:18:12,580 - __main__ - INFO - Block 4: diagram-4-29cf8d90
-2025-11-30 23:18:12,580 - __main__ - INFO -   - Filename: diagram-4-29cf8d90.png
-2025-11-30 23:18:12,581 - __main__ - INFO -   - Code preview: flowchart TD
+2025-11-30 23:54:35,275 - __main__ - INFO - Block 4: diagram-4-83c42cc2
+2025-11-30 23:54:35,275 - __main__ - INFO -   - Filename: diagram-4-83c42cc2.png
+2025-11-30 23:54:35,276 - __main__ - INFO -   - Code preview: flowchart TD
     A[用户上传视频] --> B[选择ROI区域]
     B --> C{拖拽模式/中心点模式}
     C -->|拖拽模式| D[绘制矩形ROI]
     C -...
-2025-11-30 23:18:12,581 - mermaid_processor - INFO - Mermaid images will be saved to: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_mcpknhoo
-2025-11-30 23:18:12,582 - mermaid_processor - INFO - Processing Mermaid block 1/4: diagram-1-713cdd93
-2025-11-30 23:18:12,582 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmp0b92nh9c.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_mcpknhoo\diagram-1-713cdd93.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:18:12,589 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:18:12,590 - mermaid_processor - ERROR - ✗ Failed to convert diagram-1-713cdd93
-2025-11-30 23:18:12,590 - mermaid_processor - INFO - Processing Mermaid block 2/4: diagram-2-6be78354
-2025-11-30 23:18:12,591 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmpgied3ya2.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_mcpknhoo\diagram-2-6be78354.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:18:12,598 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:18:12,598 - mermaid_processor - ERROR - ✗ Failed to convert diagram-2-6be78354
-2025-11-30 23:18:12,598 - mermaid_processor - INFO - Processing Mermaid block 3/4: diagram-3-f143d629
-2025-11-30 23:18:12,599 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmph0aull7w.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_mcpknhoo\diagram-3-f143d629.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:18:12,606 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:18:12,606 - mermaid_processor - ERROR - ✗ Failed to convert diagram-3-f143d629
-2025-11-30 23:18:12,607 - mermaid_processor - INFO - Processing Mermaid block 4/4: diagram-4-29cf8d90
-2025-11-30 23:18:12,607 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmpghjrefew.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_mcpknhoo\diagram-4-29cf8d90.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:18:12,614 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:18:12,615 - mermaid_processor - ERROR - ✗ Failed to convert diagram-4-29cf8d90
-2025-11-30 23:18:12,615 - mermaid_processor - INFO - Mermaid processing completed: 0 successful, 4 failed
-2025-11-30 23:18:12,615 - __main__ - INFO - Processing results: 0 successful, 4 failed
-2025-11-30 23:18:12,616 - __main__ - ERROR - Failed blocks indices: [0, 1, 2, 3]
-2025-11-30 23:18:12,616 - __main__ - ERROR -   - Failed block: diagram-1-713cdd93
-2025-11-30 23:18:12,616 - __main__ - ERROR -   - Failed block: diagram-2-6be78354
-2025-11-30 23:18:12,616 - __main__ - ERROR -   - Failed block: diagram-3-f143d629
-2025-11-30 23:18:12,616 - __main__ - ERROR -   - Failed block: diagram-4-29cf8d90
-2025-11-30 23:18:12,617 - mermaid_processor - INFO - Restored original Mermaid block: diagram-4-29cf8d90
-2025-11-30 23:18:12,617 - mermaid_processor - INFO - Restored original Mermaid block: diagram-3-f143d629
-2025-11-30 23:18:12,617 - mermaid_processor - INFO - Restored original Mermaid block: diagram-2-6be78354
-2025-11-30 23:18:12,617 - mermaid_processor - INFO - Restored original Mermaid block: diagram-1-713cdd93
-2025-11-30 23:18:12,617 - __main__ - INFO - Restored 4 failed blocks to original format
-2025-11-30 23:18:12,617 - __main__ - INFO - === Mermaid processing completed ===
-2025-11-30 23:18:12,618 - mermaid_processor - INFO - Cleaned up temporary directory: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_mcpknhoo
-2025-11-30 23:18:12,618 - __main__ - INFO - Mermaid processing completed but content unchanged for HEM_Analyzer_专利交底书.md
-2025-11-30 23:18:12,824 - __main__ - INFO - Pandoc conversion successful for HEM_Analyzer_专利交底书.md
-2025-11-30 23:18:12,834 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:18:12] "POST /api/convert HTTP/1.1" 200 -
-2025-11-30 23:18:27,853 - __main__ - INFO - Cleaned up temporary directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmp5or7rs48
-2025-11-30 23:18:34,227 - __main__ - INFO - Pandoc is available
-2025-11-30 23:18:37,200 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:18:37] "GET /api/templates HTTP/1.1" 200 -
-2025-11-30 23:18:37,204 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:18:37] "GET /api/templates HTTP/1.1" 200 -
-2025-11-30 23:18:37,228 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:18:37] "GET /api/health HTTP/1.1" 200 -
-2025-11-30 23:18:37,260 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:18:37] "GET /api/health HTTP/1.1" 200 -
-2025-11-30 23:18:39,393 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://26.26.26.1:5000
-2025-11-30 23:18:39,394 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-11-30 23:18:39,402 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:18:39,652 - __main__ - INFO - Pandoc is available
-2025-11-30 23:18:39,661 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:18:39,663 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:18:41,005 - __main__ - INFO - Starting conversion for file: HEM_Analyzer_专利交底书.md
-2025-11-30 23:18:41,007 - __main__ - INFO - Starting Mermaid processing for file: HEM_Analyzer_专利交底书.md
-2025-11-30 23:18:41,015 - __main__ - INFO - Successfully read markdown file, length: 12672 characters
-2025-11-30 23:18:41,015 - __main__ - INFO - Mermaid code blocks detected in the input
-2025-11-30 23:18:41,015 - __main__ - INFO - === Starting Mermaid processing ===
-2025-11-30 23:18:41,015 - __main__ - INFO - Work directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpnftifr7c
-2025-11-30 23:18:41,016 - __main__ - INFO - Input text length: 12672 characters
-2025-11-30 23:18:41,016 - __main__ - INFO - Test mode: false
-2025-11-30 23:18:41,016 - __main__ - INFO - Images directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpnftifr7c\images
-2025-11-30 23:18:41,016 - __main__ - INFO - MermaidProcessor initialized successfully
-2025-11-30 23:18:41,016 - mermaid_processor - INFO - Extracted Mermaid block diagram-1-2d225348: graph TD
-    A[视频输入] --> B[格式检测与预处理]
-    B --> C[R...
-2025-11-30 23:18:41,016 - mermaid_processor - INFO - Extracted Mermaid block diagram-2-b7176b9b: flowchart TD
-    A[开始处理视频帧] --> B[提取ROI区域]
-    B -...
-2025-11-30 23:18:41,016 - mermaid_processor - INFO - Extracted Mermaid block diagram-3-1ea155ef: flowchart TD
-    A[视频帧输入] --> B[计算基础曲线]
-    B --> ...
-2025-11-30 23:18:41,016 - mermaid_processor - INFO - Extracted Mermaid block diagram-4-7833aacf: flowchart TD
-    A[用户上传视频] --> B[选择ROI区域]
-    B --...
-2025-11-30 23:18:41,016 - mermaid_processor - INFO - Found 4 Mermaid diagram(s)
-2025-11-30 23:18:41,016 - __main__ - INFO - Extracted 4 Mermaid blocks
-2025-11-30 23:18:41,016 - __main__ - INFO - Block 1: diagram-1-2d225348
-2025-11-30 23:18:41,016 - __main__ - INFO -   - Filename: diagram-1-2d225348.png
-2025-11-30 23:18:41,016 - __main__ - INFO -   - Code preview: graph TD
-    A[视频输入] --> B[格式检测与预处理]
-    B --> C[ROI选择界面]
-    C --> D[参数配置]
-    D --> E[帧采样处理]
-    E...
-2025-11-30 23:18:41,017 - __main__ - INFO - Block 2: diagram-2-b7176b9b
-2025-11-30 23:18:41,017 - __main__ - INFO -   - Filename: diagram-2-b7176b9b.png
-2025-11-30 23:18:41,017 - __main__ - INFO -   - Code preview: flowchart TD
-    A[开始处理视频帧] --> B[提取ROI区域]
-    B --> C[计算ROI平均像素值]
-    C --> D{平均像素值 > 阈值1?}
-    D -...
-2025-11-30 23:18:41,017 - __main__ - INFO - Block 3: diagram-3-1ea155ef
-2025-11-30 23:18:41,017 - __main__ - INFO -   - Filename: diagram-3-1ea155ef.png
-2025-11-30 23:18:41,017 - __main__ - INFO -   - Code preview: flowchart TD
-    A[视频帧输入] --> B[计算基础曲线]
-    B --> C[并行执行三种算法]
-    C --> C1[突变检测]
-    C --> C2[阈值检测]
-...
-2025-11-30 23:18:41,017 - __main__ - INFO - Block 4: diagram-4-7833aacf
-2025-11-30 23:18:41,017 - __main__ - INFO -   - Filename: diagram-4-7833aacf.png
-2025-11-30 23:18:41,017 - __main__ - INFO -   - Code preview: flowchart TD
-    A[用户上传视频] --> B[选择ROI区域]
-    B --> C{拖拽模式/中心点模式}
-    C -->|拖拽模式| D[绘制矩形ROI]
-    C -...
-2025-11-30 23:18:41,017 - mermaid_processor - INFO - Mermaid images will be saved to: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_79eb7_hj
-2025-11-30 23:18:41,017 - mermaid_processor - INFO - Processing Mermaid block 1/4: diagram-1-2d225348
-2025-11-30 23:18:41,018 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmpekx_tpln.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_79eb7_hj\diagram-1-2d225348.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:18:41,025 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:18:41,025 - mermaid_processor - ERROR - ✗ Failed to convert diagram-1-2d225348
-2025-11-30 23:18:41,025 - mermaid_processor - INFO - Processing Mermaid block 2/4: diagram-2-b7176b9b
-2025-11-30 23:18:41,026 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmpns_21h51.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_79eb7_hj\diagram-2-b7176b9b.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:18:41,033 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:18:41,033 - mermaid_processor - ERROR - ✗ Failed to convert diagram-2-b7176b9b
-2025-11-30 23:18:41,033 - mermaid_processor - INFO - Processing Mermaid block 3/4: diagram-3-1ea155ef
-2025-11-30 23:18:41,034 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmpo7uv3lix.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_79eb7_hj\diagram-3-1ea155ef.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:18:41,040 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:18:41,040 - mermaid_processor - ERROR - ✗ Failed to convert diagram-3-1ea155ef
-2025-11-30 23:18:41,041 - mermaid_processor - INFO - Processing Mermaid block 4/4: diagram-4-7833aacf
-2025-11-30 23:18:41,041 - mermaid_processor - INFO - Running Mermaid CLI: mmdc -i C:\Users\BJB110\AppData\Local\Temp\tmp4hjtloug.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_79eb7_hj\diagram-4-7833aacf.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:18:41,048 - mermaid_processor - ERROR - ✗ Error converting Mermaid to image: [WinError 2] 系统找不到指定的文件。
-2025-11-30 23:18:41,048 - mermaid_processor - ERROR - ✗ Failed to convert diagram-4-7833aacf
-2025-11-30 23:18:41,048 - mermaid_processor - INFO - Mermaid processing completed: 0 successful, 4 failed
-2025-11-30 23:18:41,048 - __main__ - INFO - Processing results: 0 successful, 4 failed
-2025-11-30 23:18:41,048 - __main__ - ERROR - Failed blocks indices: [0, 1, 2, 3]
-2025-11-30 23:18:41,048 - __main__ - ERROR -   - Failed block: diagram-1-2d225348
-2025-11-30 23:18:41,048 - __main__ - ERROR -   - Failed block: diagram-2-b7176b9b
-2025-11-30 23:18:41,048 - __main__ - ERROR -   - Failed block: diagram-3-1ea155ef
-2025-11-30 23:18:41,048 - __main__ - ERROR -   - Failed block: diagram-4-7833aacf
-2025-11-30 23:18:41,048 - mermaid_processor - INFO - Restored original Mermaid block: diagram-4-7833aacf
-2025-11-30 23:18:41,048 - mermaid_processor - INFO - Restored original Mermaid block: diagram-3-1ea155ef
-2025-11-30 23:18:41,048 - mermaid_processor - INFO - Restored original Mermaid block: diagram-2-b7176b9b
-2025-11-30 23:18:41,048 - mermaid_processor - INFO - Restored original Mermaid block: diagram-1-2d225348
-2025-11-30 23:18:41,048 - __main__ - INFO - Restored 4 failed blocks to original format
-2025-11-30 23:18:41,048 - __main__ - INFO - === Mermaid processing completed ===
-2025-11-30 23:18:41,048 - mermaid_processor - INFO - Cleaned up temporary directory: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_79eb7_hj
-2025-11-30 23:18:41,049 - __main__ - INFO - Mermaid processing completed but content unchanged for HEM_Analyzer_专利交底书.md
-2025-11-30 23:18:41,255 - __main__ - INFO - Pandoc conversion successful for HEM_Analyzer_专利交底书.md
-2025-11-30 23:18:41,265 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:18:41] "POST /api/convert HTTP/1.1" 200 -
-2025-11-30 23:19:34,116 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\subprocess.py', reloading
-2025-11-30 23:19:34,116 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\subprocess.py', reloading
-2025-11-30 23:19:34,761 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:19:34,970 - __main__ - INFO - Cleaned up temporary directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpnftifr7c
-2025-11-30 23:19:34,998 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:19:35,012 - __main__ - INFO - Pandoc is available
-2025-11-30 23:19:35,022 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:19:35,025 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:19:35,257 - __main__ - INFO - Pandoc is available
-2025-11-30 23:19:35,267 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:19:35,269 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:19:47,054 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py', reloading
-2025-11-30 23:19:47,055 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py.tmp.15072.1764515987050', reloading
-2025-11-30 23:19:47,054 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py', reloading
-2025-11-30 23:19:47,055 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py.tmp.15072.1764515987050', reloading
-2025-11-30 23:19:47,318 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:19:47,600 - __main__ - INFO - Pandoc is available
-2025-11-30 23:19:47,609 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:19:47,612 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:19:48,077 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:19:48,325 - __main__ - INFO - Pandoc is available
-2025-11-30 23:19:48,335 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:19:48,337 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:19:51,201 - __main__ - INFO - Starting conversion for file: test_mermaid.md
-2025-11-30 23:19:51,202 - __main__ - INFO - Starting Mermaid processing for file: test_mermaid.md
-2025-11-30 23:19:51,203 - __main__ - INFO - Successfully read markdown file, length: 875 characters
-2025-11-30 23:19:51,203 - __main__ - INFO - Mermaid code blocks detected in the input
-2025-11-30 23:19:51,203 - __main__ - INFO - === Starting Mermaid processing ===
-2025-11-30 23:19:51,203 - __main__ - INFO - Work directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmp7n1st4ue
-2025-11-30 23:19:51,203 - __main__ - INFO - Input text length: 875 characters
-2025-11-30 23:19:51,203 - __main__ - INFO - Test mode: false
-2025-11-30 23:19:51,204 - __main__ - INFO - Images directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmp7n1st4ue\images
-2025-11-30 23:19:51,204 - __main__ - INFO - MermaidProcessor initialized successfully
-2025-11-30 23:19:51,204 - mermaid_processor - INFO - Extracted Mermaid block diagram-1-7648933e: flowchart TD
-    A[Start] --> B{Is it working?}
-  ...
-2025-11-30 23:19:51,204 - mermaid_processor - INFO - Extracted Mermaid block diagram-2-8bb6376e: sequenceDiagram
-    participant Client
-    partici...
-2025-11-30 23:19:51,204 - mermaid_processor - INFO - Extracted Mermaid block diagram-3-0380df52: graph LR
-    A-->B
-    B-->C
-    C-->D
-    D-->A...
-2025-11-30 23:19:51,204 - mermaid_processor - INFO - Found 3 Mermaid diagram(s)
-2025-11-30 23:19:51,204 - __main__ - INFO - Extracted 3 Mermaid blocks
-2025-11-30 23:19:51,204 - __main__ - INFO - Block 1: diagram-1-7648933e
-2025-11-30 23:19:51,204 - __main__ - INFO -   - Filename: diagram-1-7648933e.png
-2025-11-30 23:19:51,204 - __main__ - INFO -   - Code preview: flowchart TD
-    A[Start] --> B{Is it working?}
-    B -->|Yes| C[Process Diagram]
-    B -->|No| D[De...
-2025-11-30 23:19:51,204 - __main__ - INFO - Block 2: diagram-2-8bb6376e
-2025-11-30 23:19:51,204 - __main__ - INFO -   - Filename: diagram-2-8bb6376e.png
-2025-11-30 23:19:51,204 - __main__ - INFO -   - Code preview: sequenceDiagram
-    participant Client
-    participant Server
-    participant Database
-
-    Client->...
-2025-11-30 23:19:51,204 - __main__ - INFO - Block 3: diagram-3-0380df52
-2025-11-30 23:19:51,204 - __main__ - INFO -   - Filename: diagram-3-0380df52.png
-2025-11-30 23:19:51,204 - __main__ - INFO -   - Code preview: graph LR
-    A-->B
-    B-->C
-    C-->D
-    D-->A...
-2025-11-30 23:19:51,205 - mermaid_processor - INFO - Mermaid images will be saved to: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck
-2025-11-30 23:19:51,205 - mermaid_processor - INFO - Processing Mermaid block 1/3: diagram-1-7648933e
-2025-11-30 23:19:51,205 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmp3ilj1ucq.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck\diagram-1-7648933e.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:19:52,604 - mermaid_processor - INFO - ✓ Successfully generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck\diagram-1-7648933e.png (12873 bytes)
-2025-11-30 23:19:52,605 - mermaid_processor - INFO - ✓ Successfully converted diagram-1-7648933e
-2025-11-30 23:19:52,605 - mermaid_processor - INFO - Processing Mermaid block 2/3: diagram-2-8bb6376e
-2025-11-30 23:19:52,605 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpwldotr9q.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck\diagram-2-8bb6376e.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:19:53,940 - mermaid_processor - INFO - ✓ Successfully generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck\diagram-2-8bb6376e.png (10268 bytes)
-2025-11-30 23:19:53,941 - mermaid_processor - INFO - ✓ Successfully converted diagram-2-8bb6376e
-2025-11-30 23:19:53,941 - mermaid_processor - INFO - Processing Mermaid block 3/3: diagram-3-0380df52
-2025-11-30 23:19:53,941 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpsen2vrjr.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck\diagram-3-0380df52.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:19:55,256 - mermaid_processor - INFO - ✓ Successfully generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck\diagram-3-0380df52.png (3958 bytes)
-2025-11-30 23:19:55,256 - mermaid_processor - INFO - ✓ Successfully converted diagram-3-0380df52
-2025-11-30 23:19:55,256 - mermaid_processor - INFO - Mermaid processing completed: 3 successful, 0 failed
-2025-11-30 23:19:55,256 - __main__ - INFO - Processing results: 3 successful, 0 failed
-2025-11-30 23:19:55,256 - __main__ - INFO - ✓ Generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck\diagram-1-7648933e.png (12873 bytes)
-2025-11-30 23:19:55,256 - __main__ - INFO - ✓ Generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck\diagram-2-8bb6376e.png (10268 bytes)
-2025-11-30 23:19:55,256 - __main__ - INFO - ✓ Generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck\diagram-3-0380df52.png (3958 bytes)
-2025-11-30 23:19:55,256 - __main__ - INFO - === Mermaid processing completed ===
-2025-11-30 23:19:55,257 - mermaid_processor - INFO - Cleaned up temporary directory: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_fd6w1zck
-2025-11-30 23:19:55,257 - __main__ - INFO - Successfully processed mermaid blocks and updated input file for test_mermaid.md
-2025-11-30 23:19:55,332 - __main__ - INFO - Pandoc conversion successful for test_mermaid.md
-2025-11-30 23:19:55,343 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:19:55] "POST /api/convert HTTP/1.1" 200 -
-2025-11-30 23:21:52,707 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:21:52] "GET /api/templates HTTP/1.1" 200 -
-2025-11-30 23:21:52,711 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:21:52] "GET /api/templates HTTP/1.1" 200 -
-2025-11-30 23:21:52,748 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:21:52] "GET /api/health HTTP/1.1" 200 -
-2025-11-30 23:21:52,781 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:21:52] "GET /api/health HTTP/1.1" 200 -
-2025-11-30 23:21:57,676 - __main__ - INFO - Starting conversion for file: HEM_Analyzer_专利交底书.md
-2025-11-30 23:21:57,677 - __main__ - INFO - Starting Mermaid processing for file: HEM_Analyzer_专利交底书.md
-2025-11-30 23:21:57,685 - __main__ - INFO - Successfully read markdown file, length: 12672 characters
-2025-11-30 23:21:57,685 - __main__ - INFO - Mermaid code blocks detected in the input
-2025-11-30 23:21:57,685 - __main__ - INFO - === Starting Mermaid processing ===
-2025-11-30 23:21:57,685 - __main__ - INFO - Work directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmprbklttl_
-2025-11-30 23:21:57,685 - __main__ - INFO - Input text length: 12672 characters
-2025-11-30 23:21:57,685 - __main__ - INFO - Test mode: false
-2025-11-30 23:21:57,686 - __main__ - INFO - Images directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmprbklttl_\images
-2025-11-30 23:21:57,686 - __main__ - INFO - MermaidProcessor initialized successfully
-2025-11-30 23:21:57,686 - mermaid_processor - INFO - Extracted Mermaid block diagram-1-5a06caa3: graph TD
-    A[视频输入] --> B[格式检测与预处理]
-    B --> C[R...
-2025-11-30 23:21:57,686 - mermaid_processor - INFO - Extracted Mermaid block diagram-2-aca32c2e: flowchart TD
-    A[开始处理视频帧] --> B[提取ROI区域]
-    B -...
-2025-11-30 23:21:57,686 - mermaid_processor - INFO - Extracted Mermaid block diagram-3-8b6d23cd: flowchart TD
-    A[视频帧输入] --> B[计算基础曲线]
-    B --> ...
-2025-11-30 23:21:57,686 - mermaid_processor - INFO - Extracted Mermaid block diagram-4-b3d82ae0: flowchart TD
-    A[用户上传视频] --> B[选择ROI区域]
-    B --...
-2025-11-30 23:21:57,686 - mermaid_processor - INFO - Found 4 Mermaid diagram(s)
-2025-11-30 23:21:57,686 - __main__ - INFO - Extracted 4 Mermaid blocks
-2025-11-30 23:21:57,686 - __main__ - INFO - Block 1: diagram-1-5a06caa3
-2025-11-30 23:21:57,686 - __main__ - INFO -   - Filename: diagram-1-5a06caa3.png
-2025-11-30 23:21:57,686 - __main__ - INFO -   - Code preview: graph TD
-    A[视频输入] --> B[格式检测与预处理]
-    B --> C[ROI选择界面]
-    C --> D[参数配置]
-    D --> E[帧采样处理]
-    E...
-2025-11-30 23:21:57,686 - __main__ - INFO - Block 2: diagram-2-aca32c2e
-2025-11-30 23:21:57,686 - __main__ - INFO -   - Filename: diagram-2-aca32c2e.png
-2025-11-30 23:21:57,686 - __main__ - INFO -   - Code preview: flowchart TD
-    A[开始处理视频帧] --> B[提取ROI区域]
-    B --> C[计算ROI平均像素值]
-    C --> D{平均像素值 > 阈值1?}
-    D -...
-2025-11-30 23:21:57,687 - __main__ - INFO - Block 3: diagram-3-8b6d23cd
-2025-11-30 23:21:57,687 - __main__ - INFO -   - Filename: diagram-3-8b6d23cd.png
-2025-11-30 23:21:57,687 - __main__ - INFO -   - Code preview: flowchart TD
-    A[视频帧输入] --> B[计算基础曲线]
-    B --> C[并行执行三种算法]
-    C --> C1[突变检测]
-    C --> C2[阈值检测]
-...
-2025-11-30 23:21:57,687 - __main__ - INFO - Block 4: diagram-4-b3d82ae0
-2025-11-30 23:21:57,687 - __main__ - INFO -   - Filename: diagram-4-b3d82ae0.png
-2025-11-30 23:21:57,687 - __main__ - INFO -   - Code preview: flowchart TD
-    A[用户上传视频] --> B[选择ROI区域]
-    B --> C{拖拽模式/中心点模式}
-    C -->|拖拽模式| D[绘制矩形ROI]
-    C -...
-2025-11-30 23:21:57,687 - mermaid_processor - INFO - Mermaid images will be saved to: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx
-2025-11-30 23:21:57,688 - mermaid_processor - INFO - Processing Mermaid block 1/4: diagram-1-5a06caa3
-2025-11-30 23:21:57,688 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmp5bnkl64k.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-1-5a06caa3.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:21:59,011 - mermaid_processor - INFO - ✓ Successfully generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-1-5a06caa3.png (48650 bytes)
-2025-11-30 23:21:59,011 - mermaid_processor - INFO - ✓ Successfully converted diagram-1-5a06caa3
-2025-11-30 23:21:59,011 - mermaid_processor - INFO - Processing Mermaid block 2/4: diagram-2-aca32c2e
-2025-11-30 23:21:59,012 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpeko2w25d.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-2-aca32c2e.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:22:00,352 - mermaid_processor - INFO - ✓ Successfully generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-2-aca32c2e.png (34785 bytes)
-2025-11-30 23:22:00,353 - mermaid_processor - INFO - ✓ Successfully converted diagram-2-aca32c2e
-2025-11-30 23:22:00,353 - mermaid_processor - INFO - Processing Mermaid block 3/4: diagram-3-8b6d23cd
-2025-11-30 23:22:00,354 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpd1g4qei0.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-3-8b6d23cd.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:22:01,713 - mermaid_processor - INFO - ✓ Successfully generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-3-8b6d23cd.png (32965 bytes)
-2025-11-30 23:22:01,713 - mermaid_processor - INFO - ✓ Successfully converted diagram-3-8b6d23cd
-2025-11-30 23:22:01,713 - mermaid_processor - INFO - Processing Mermaid block 4/4: diagram-4-b3d82ae0
-2025-11-30 23:22:01,714 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpzieoeqfz.mmd -o C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-4-b3d82ae0.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:22:03,050 - mermaid_processor - INFO - ✓ Successfully generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-4-b3d82ae0.png (40323 bytes)
-2025-11-30 23:22:03,051 - mermaid_processor - INFO - ✓ Successfully converted diagram-4-b3d82ae0
-2025-11-30 23:22:03,051 - mermaid_processor - INFO - Mermaid processing completed: 4 successful, 0 failed
-2025-11-30 23:22:03,051 - __main__ - INFO - Processing results: 4 successful, 0 failed
-2025-11-30 23:22:03,051 - __main__ - INFO - ✓ Generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-1-5a06caa3.png (48650 bytes)
-2025-11-30 23:22:03,051 - __main__ - INFO - ✓ Generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-2-aca32c2e.png (34785 bytes)
-2025-11-30 23:22:03,051 - __main__ - INFO - ✓ Generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-3-8b6d23cd.png (32965 bytes)
-2025-11-30 23:22:03,051 - __main__ - INFO - ✓ Generated image: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx\diagram-4-b3d82ae0.png (40323 bytes)
-2025-11-30 23:22:03,051 - __main__ - INFO - === Mermaid processing completed ===
-2025-11-30 23:22:03,052 - mermaid_processor - INFO - Cleaned up temporary directory: C:\Users\BJB110\AppData\Local\Temp\mermaid_images_3qbw0rtx
-2025-11-30 23:22:03,053 - __main__ - INFO - Successfully processed mermaid blocks and updated input file for HEM_Analyzer_专利交底书.md
-2025-11-30 23:22:03,173 - __main__ - INFO - Pandoc conversion successful for HEM_Analyzer_专利交底书.md
-2025-11-30 23:22:03,183 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:22:03] "POST /api/convert HTTP/1.1" 200 -
-2025-11-30 23:23:22,419 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py', reloading
-2025-11-30 23:23:22,420 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py.tmp.15072.1764516202414', reloading
-2025-11-30 23:23:22,420 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py', reloading
-2025-11-30 23:23:22,420 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py.tmp.15072.1764516202414', reloading
-2025-11-30 23:23:22,590 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:23:22,844 - __main__ - INFO - Cleaned up temporary directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmp7n1st4ue
-2025-11-30 23:23:22,874 - __main__ - INFO - Pandoc is available
-2025-11-30 23:23:22,875 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:23:22,884 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:23:22,886 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:23:23,149 - __main__ - INFO - Pandoc is available
-2025-11-30 23:23:23,158 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:23:23,161 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:23:27,978 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py', reloading
-2025-11-30 23:23:27,979 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py.tmp.15072.1764516207970', reloading
-2025-11-30 23:23:27,979 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py', reloading
-2025-11-30 23:23:27,980 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py.tmp.15072.1764516207970', reloading
-2025-11-30 23:23:28,209 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:23:28,492 - __main__ - INFO - Pandoc is available
-2025-11-30 23:23:28,501 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:23:28,503 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:23:28,932 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:23:29,184 - __main__ - INFO - Pandoc is available
-2025-11-30 23:23:29,194 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:23:29,196 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:23:33,752 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py', reloading
-2025-11-30 23:23:33,752 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py', reloading
-2025-11-30 23:23:33,753 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py.tmp.15072.1764516213747', reloading
-2025-11-30 23:23:33,753 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\mermaid_processor.py.tmp.15072.1764516213747', reloading
-2025-11-30 23:23:34,242 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:23:34,497 - __main__ - INFO - Pandoc is available
-2025-11-30 23:23:34,508 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:23:34,511 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:23:34,550 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:23:34,896 - __main__ - INFO - Pandoc is available
-2025-11-30 23:23:34,906 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:23:34,908 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:23:48,176 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\app.py', reloading
-2025-11-30 23:23:48,176 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\app.py', reloading
-2025-11-30 23:23:48,176 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\app.py.tmp.15072.1764516228166', reloading
-2025-11-30 23:23:48,176 - werkzeug - INFO -  * Detected change in 'D:\\ProjectPackage\\DocGenerator\\backend\\app.py.tmp.15072.1764516228166', reloading
-2025-11-30 23:23:48,581 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:23:48,861 - __main__ - INFO - Pandoc is available
-2025-11-30 23:23:48,871 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:23:48,873 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:23:48,965 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:23:49,222 - __main__ - INFO - Pandoc is available
-2025-11-30 23:23:49,231 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:23:49,233 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:23:57,210 - __main__ - INFO - Starting conversion for file: test_mermaid_new.md
-2025-11-30 23:23:57,212 - __main__ - INFO - Starting Mermaid processing for file: test_mermaid_new.md
-2025-11-30 23:23:57,218 - __main__ - INFO - Successfully read markdown file, length: 336 characters
-2025-11-30 23:23:57,218 - __main__ - INFO - Mermaid code blocks detected in the input
-2025-11-30 23:23:57,218 - __main__ - INFO - === Starting Mermaid processing ===
-2025-11-30 23:23:57,218 - __main__ - INFO - Work directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpc1m_kb4h
-2025-11-30 23:23:57,218 - __main__ - INFO - Input text length: 336 characters
-2025-11-30 23:23:57,218 - __main__ - INFO - Test mode: false
-2025-11-30 23:23:57,219 - __main__ - INFO - Workdir images directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpc1m_kb4h\images
-2025-11-30 23:23:57,219 - __main__ - INFO - MermaidProcessor initialized successfully
-2025-11-30 23:23:57,219 - mermaid_processor - INFO - Extracted Mermaid block diagram-1-e5ae9c03: flowchart LR
-    Start --> Process
-    Process -->...
-2025-11-30 23:23:57,219 - mermaid_processor - INFO - Extracted Mermaid block diagram-2-7a00947e: flowchart TD
-    A{Is it working?} -->|Yes| B[Succ...
-2025-11-30 23:23:57,219 - mermaid_processor - INFO - Found 2 Mermaid diagram(s)
-2025-11-30 23:23:57,219 - __main__ - INFO - Extracted 2 Mermaid blocks
-2025-11-30 23:23:57,219 - __main__ - INFO - Block 1: diagram-1-e5ae9c03
-2025-11-30 23:23:57,219 - __main__ - INFO -   - Filename: diagram-1-e5ae9c03.png
-2025-11-30 23:23:57,219 - __main__ - INFO -   - Code preview: flowchart LR
-    Start --> Process
-    Process --> End...
-2025-11-30 23:23:57,219 - __main__ - INFO - Block 2: diagram-2-7a00947e
-2025-11-30 23:23:57,219 - __main__ - INFO -   - Filename: diagram-2-7a00947e.png
-2025-11-30 23:23:57,219 - __main__ - INFO -   - Code preview: flowchart TD
-    A{Is it working?} -->|Yes| B[Success]
-    A -->|No| C[Debug]
-    C --> A...
-2025-11-30 23:23:57,219 - mermaid_processor - INFO - Mermaid images will be saved to: D:\ProjectPackage\DocGenerator\images
-2025-11-30 23:23:57,220 - mermaid_processor - INFO - Processing Mermaid block 1/2: diagram-1-e5ae9c03
-2025-11-30 23:23:57,220 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpxv13ky_j.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-1-e5ae9c03.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:23:58,525 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-1-e5ae9c03.png (2223 bytes)
-2025-11-30 23:23:58,526 - mermaid_processor - INFO - ✓ Successfully converted diagram-1-e5ae9c03
-2025-11-30 23:23:58,526 - mermaid_processor - INFO - Processing Mermaid block 2/2: diagram-2-7a00947e
-2025-11-30 23:23:58,526 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpou3yzxpw.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-2-7a00947e.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:23:59,797 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-2-7a00947e.png (7252 bytes)
-2025-11-30 23:23:59,798 - mermaid_processor - INFO - ✓ Successfully converted diagram-2-7a00947e
-2025-11-30 23:23:59,798 - mermaid_processor - INFO - Mermaid processing completed: 2 successful, 0 failed
-2025-11-30 23:23:59,798 - __main__ - INFO - Processing results: 2 successful, 0 failed
-2025-11-30 23:23:59,798 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-1-e5ae9c03.png (2223 bytes)
-2025-11-30 23:23:59,799 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpc1m_kb4h\images\diagram-1-e5ae9c03.png
-2025-11-30 23:23:59,799 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-2-7a00947e.png (7252 bytes)
-2025-11-30 23:23:59,799 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpc1m_kb4h\images\diagram-2-7a00947e.png
-2025-11-30 23:23:59,799 - __main__ - INFO - === Mermaid processing completed ===
-2025-11-30 23:23:59,800 - __main__ - INFO - Successfully processed mermaid blocks and updated input file for test_mermaid_new.md
-2025-11-30 23:23:59,877 - __main__ - INFO - Pandoc conversion successful for test_mermaid_new.md
-2025-11-30 23:23:59,888 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:23:59] "POST /api/convert HTTP/1.1" 200 -
-2025-11-30 23:26:44,329 - __main__ - INFO - Pandoc is available
-2025-11-30 23:26:49,490 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://26.26.26.1:5000
-2025-11-30 23:26:49,490 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-11-30 23:26:49,498 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:26:49,757 - __main__ - INFO - Pandoc is available
-2025-11-30 23:26:49,769 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:26:49,771 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:26:50,450 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:26:50] "GET /api/templates HTTP/1.1" 200 -
-2025-11-30 23:26:50,455 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:26:50] "GET /api/templates HTTP/1.1" 200 -
-2025-11-30 23:26:50,481 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:26:50] "GET /api/health HTTP/1.1" 200 -
-2025-11-30 23:26:50,514 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:26:50] "GET /api/health HTTP/1.1" 200 -
-2025-11-30 23:26:55,789 - __main__ - INFO - Starting conversion for file: HEM_Analyzer_专利交底书.md
-2025-11-30 23:26:55,790 - __main__ - INFO - Starting Mermaid processing for file: HEM_Analyzer_专利交底书.md
-2025-11-30 23:26:55,798 - __main__ - INFO - Successfully read markdown file, length: 12672 characters
-2025-11-30 23:26:55,799 - __main__ - INFO - Mermaid code blocks detected in the input
-2025-11-30 23:26:55,799 - __main__ - INFO - === Starting Mermaid processing ===
-2025-11-30 23:26:55,799 - __main__ - INFO - Work directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpj357hjfv
-2025-11-30 23:26:55,799 - __main__ - INFO - Input text length: 12672 characters
-2025-11-30 23:26:55,799 - __main__ - INFO - Test mode: false
-2025-11-30 23:26:55,799 - __main__ - INFO - Workdir images directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpj357hjfv\images
-2025-11-30 23:26:55,800 - __main__ - INFO - MermaidProcessor initialized successfully
-2025-11-30 23:26:55,800 - mermaid_processor - INFO - Extracted Mermaid block diagram-1-bc67cc1f: graph TD
-    A[视频输入] --> B[格式检测与预处理]
-    B --> C[R...
-2025-11-30 23:26:55,800 - mermaid_processor - INFO - Extracted Mermaid block diagram-2-811b1ae3: flowchart TD
-    A[开始处理视频帧] --> B[提取ROI区域]
-    B -...
-2025-11-30 23:26:55,800 - mermaid_processor - INFO - Extracted Mermaid block diagram-3-40a2d93c: flowchart TD
-    A[视频帧输入] --> B[计算基础曲线]
-    B --> ...
-2025-11-30 23:26:55,800 - mermaid_processor - INFO - Extracted Mermaid block diagram-4-12ea64f4: flowchart TD
-    A[用户上传视频] --> B[选择ROI区域]
-    B --...
-2025-11-30 23:26:55,800 - mermaid_processor - INFO - Found 4 Mermaid diagram(s)
-2025-11-30 23:26:55,800 - __main__ - INFO - Extracted 4 Mermaid blocks
-2025-11-30 23:26:55,800 - __main__ - INFO - Block 1: diagram-1-bc67cc1f
-2025-11-30 23:26:55,801 - __main__ - INFO -   - Filename: diagram-1-bc67cc1f.png
-2025-11-30 23:26:55,801 - __main__ - INFO -   - Code preview: graph TD
-    A[视频输入] --> B[格式检测与预处理]
-    B --> C[ROI选择界面]
-    C --> D[参数配置]
-    D --> E[帧采样处理]
-    E...
-2025-11-30 23:26:55,801 - __main__ - INFO - Block 2: diagram-2-811b1ae3
-2025-11-30 23:26:55,801 - __main__ - INFO -   - Filename: diagram-2-811b1ae3.png
-2025-11-30 23:26:55,801 - __main__ - INFO -   - Code preview: flowchart TD
-    A[开始处理视频帧] --> B[提取ROI区域]
-    B --> C[计算ROI平均像素值]
-    C --> D{平均像素值 > 阈值1?}
-    D -...
-2025-11-30 23:26:55,801 - __main__ - INFO - Block 3: diagram-3-40a2d93c
-2025-11-30 23:26:55,801 - __main__ - INFO -   - Filename: diagram-3-40a2d93c.png
-2025-11-30 23:26:55,801 - __main__ - INFO -   - Code preview: flowchart TD
-    A[视频帧输入] --> B[计算基础曲线]
-    B --> C[并行执行三种算法]
-    C --> C1[突变检测]
-    C --> C2[阈值检测]
-...
-2025-11-30 23:26:55,801 - __main__ - INFO - Block 4: diagram-4-12ea64f4
-2025-11-30 23:26:55,801 - __main__ - INFO -   - Filename: diagram-4-12ea64f4.png
-2025-11-30 23:26:55,802 - __main__ - INFO -   - Code preview: flowchart TD
-    A[用户上传视频] --> B[选择ROI区域]
-    B --> C{拖拽模式/中心点模式}
-    C -->|拖拽模式| D[绘制矩形ROI]
-    C -...
-2025-11-30 23:26:55,802 - mermaid_processor - INFO - Mermaid images will be saved to: D:\ProjectPackage\DocGenerator\images
-2025-11-30 23:26:55,802 - mermaid_processor - INFO - Processing Mermaid block 1/4: diagram-1-bc67cc1f
-2025-11-30 23:26:55,802 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmp3a8dnxzv.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-1-bc67cc1f.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:26:57,172 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-1-bc67cc1f.png (48650 bytes)
-2025-11-30 23:26:57,172 - mermaid_processor - INFO - ✓ Successfully converted diagram-1-bc67cc1f
-2025-11-30 23:26:57,173 - mermaid_processor - INFO - Processing Mermaid block 2/4: diagram-2-811b1ae3
-2025-11-30 23:26:57,173 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpuzt53te4.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-2-811b1ae3.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:26:58,502 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-2-811b1ae3.png (34785 bytes)
-2025-11-30 23:26:58,502 - mermaid_processor - INFO - ✓ Successfully converted diagram-2-811b1ae3
-2025-11-30 23:26:58,503 - mermaid_processor - INFO - Processing Mermaid block 3/4: diagram-3-40a2d93c
-2025-11-30 23:26:58,503 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmp9lwamf6d.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-3-40a2d93c.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:26:59,845 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-3-40a2d93c.png (32965 bytes)
-2025-11-30 23:26:59,846 - mermaid_processor - INFO - ✓ Successfully converted diagram-3-40a2d93c
-2025-11-30 23:26:59,846 - mermaid_processor - INFO - Processing Mermaid block 4/4: diagram-4-12ea64f4
-2025-11-30 23:26:59,847 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmp5mj8b3i5.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-4-12ea64f4.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:27:01,185 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-4-12ea64f4.png (40323 bytes)
-2025-11-30 23:27:01,185 - mermaid_processor - INFO - ✓ Successfully converted diagram-4-12ea64f4
-2025-11-30 23:27:01,186 - mermaid_processor - INFO - Mermaid processing completed: 4 successful, 0 failed
-2025-11-30 23:27:01,186 - __main__ - INFO - Processing results: 4 successful, 0 failed
-2025-11-30 23:27:01,186 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-1-bc67cc1f.png (48650 bytes)
-2025-11-30 23:27:01,187 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpj357hjfv\images\diagram-1-bc67cc1f.png
-2025-11-30 23:27:01,187 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-2-811b1ae3.png (34785 bytes)
-2025-11-30 23:27:01,188 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpj357hjfv\images\diagram-2-811b1ae3.png
-2025-11-30 23:27:01,188 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-3-40a2d93c.png (32965 bytes)
-2025-11-30 23:27:01,189 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpj357hjfv\images\diagram-3-40a2d93c.png
-2025-11-30 23:27:01,189 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-4-12ea64f4.png (40323 bytes)
-2025-11-30 23:27:01,190 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpj357hjfv\images\diagram-4-12ea64f4.png
-2025-11-30 23:27:01,190 - __main__ - INFO - === Mermaid processing completed ===
-2025-11-30 23:27:01,191 - __main__ - INFO - Successfully processed mermaid blocks and updated input file for HEM_Analyzer_专利交底书.md
-2025-11-30 23:27:01,307 - __main__ - INFO - Pandoc conversion successful for HEM_Analyzer_专利交底书.md
-2025-11-30 23:27:01,319 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:27:01] "POST /api/convert HTTP/1.1" 200 -
-2025-11-30 23:27:23,310 - __main__ - INFO - Starting conversion for file: HEM_Analyzer_专利交底书.md
-2025-11-30 23:27:23,311 - __main__ - INFO - Starting Mermaid processing for file: HEM_Analyzer_专利交底书.md
-2025-11-30 23:27:23,320 - __main__ - INFO - Successfully read markdown file, length: 12672 characters
-2025-11-30 23:27:23,320 - __main__ - INFO - Mermaid code blocks detected in the input
-2025-11-30 23:27:23,320 - __main__ - INFO - === Starting Mermaid processing ===
-2025-11-30 23:27:23,320 - __main__ - INFO - Work directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpitp2zt6_
-2025-11-30 23:27:23,321 - __main__ - INFO - Input text length: 12672 characters
-2025-11-30 23:27:23,321 - __main__ - INFO - Test mode: false
-2025-11-30 23:27:23,322 - __main__ - INFO - Workdir images directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpitp2zt6_\images
-2025-11-30 23:27:23,322 - __main__ - INFO - MermaidProcessor initialized successfully
-2025-11-30 23:27:23,322 - mermaid_processor - INFO - Extracted Mermaid block diagram-1-e4598236: graph TD
-    A[视频输入] --> B[格式检测与预处理]
-    B --> C[R...
-2025-11-30 23:27:23,323 - mermaid_processor - INFO - Extracted Mermaid block diagram-2-55b6d503: flowchart TD
-    A[开始处理视频帧] --> B[提取ROI区域]
-    B -...
-2025-11-30 23:27:23,323 - mermaid_processor - INFO - Extracted Mermaid block diagram-3-ec46cfbd: flowchart TD
-    A[视频帧输入] --> B[计算基础曲线]
-    B --> ...
-2025-11-30 23:27:23,323 - mermaid_processor - INFO - Extracted Mermaid block diagram-4-41baf30b: flowchart TD
-    A[用户上传视频] --> B[选择ROI区域]
-    B --...
-2025-11-30 23:27:23,323 - mermaid_processor - INFO - Found 4 Mermaid diagram(s)
-2025-11-30 23:27:23,323 - __main__ - INFO - Extracted 4 Mermaid blocks
-2025-11-30 23:27:23,323 - __main__ - INFO - Block 1: diagram-1-e4598236
-2025-11-30 23:27:23,323 - __main__ - INFO -   - Filename: diagram-1-e4598236.png
-2025-11-30 23:27:23,324 - __main__ - INFO -   - Code preview: graph TD
-    A[视频输入] --> B[格式检测与预处理]
-    B --> C[ROI选择界面]
-    C --> D[参数配置]
-    D --> E[帧采样处理]
-    E...
-2025-11-30 23:27:23,324 - __main__ - INFO - Block 2: diagram-2-55b6d503
-2025-11-30 23:27:23,324 - __main__ - INFO -   - Filename: diagram-2-55b6d503.png
-2025-11-30 23:27:23,325 - __main__ - INFO -   - Code preview: flowchart TD
-    A[开始处理视频帧] --> B[提取ROI区域]
-    B --> C[计算ROI平均像素值]
-    C --> D{平均像素值 > 阈值1?}
-    D -...
-2025-11-30 23:27:23,325 - __main__ - INFO - Block 3: diagram-3-ec46cfbd
-2025-11-30 23:27:23,325 - __main__ - INFO -   - Filename: diagram-3-ec46cfbd.png
-2025-11-30 23:27:23,325 - __main__ - INFO -   - Code preview: flowchart TD
-    A[视频帧输入] --> B[计算基础曲线]
-    B --> C[并行执行三种算法]
-    C --> C1[突变检测]
-    C --> C2[阈值检测]
-...
-2025-11-30 23:27:23,325 - __main__ - INFO - Block 4: diagram-4-41baf30b
-2025-11-30 23:27:23,325 - __main__ - INFO -   - Filename: diagram-4-41baf30b.png
-2025-11-30 23:27:23,326 - __main__ - INFO -   - Code preview: flowchart TD
-    A[用户上传视频] --> B[选择ROI区域]
-    B --> C{拖拽模式/中心点模式}
-    C -->|拖拽模式| D[绘制矩形ROI]
-    C -...
-2025-11-30 23:27:23,326 - mermaid_processor - INFO - Mermaid images will be saved to: D:\ProjectPackage\DocGenerator\images
-2025-11-30 23:27:23,326 - mermaid_processor - INFO - Processing Mermaid block 1/4: diagram-1-e4598236
-2025-11-30 23:27:23,327 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpcjf90w59.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-1-e4598236.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:27:24,681 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-1-e4598236.png (48650 bytes)
-2025-11-30 23:27:24,681 - mermaid_processor - INFO - ✓ Successfully converted diagram-1-e4598236
-2025-11-30 23:27:24,682 - mermaid_processor - INFO - Processing Mermaid block 2/4: diagram-2-55b6d503
-2025-11-30 23:27:24,682 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmphu7je552.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-2-55b6d503.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:27:26,018 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-2-55b6d503.png (34785 bytes)
-2025-11-30 23:27:26,019 - mermaid_processor - INFO - ✓ Successfully converted diagram-2-55b6d503
-2025-11-30 23:27:26,019 - mermaid_processor - INFO - Processing Mermaid block 3/4: diagram-3-ec46cfbd
-2025-11-30 23:27:26,020 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpyxtfqjtr.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-3-ec46cfbd.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:27:27,326 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-3-ec46cfbd.png (32965 bytes)
-2025-11-30 23:27:27,326 - mermaid_processor - INFO - ✓ Successfully converted diagram-3-ec46cfbd
-2025-11-30 23:27:27,327 - mermaid_processor - INFO - Processing Mermaid block 4/4: diagram-4-41baf30b
-2025-11-30 23:27:27,327 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpfmx4x83y.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-4-41baf30b.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:27:28,632 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-4-41baf30b.png (40323 bytes)
-2025-11-30 23:27:28,633 - mermaid_processor - INFO - ✓ Successfully converted diagram-4-41baf30b
-2025-11-30 23:27:28,633 - mermaid_processor - INFO - Mermaid processing completed: 4 successful, 0 failed
-2025-11-30 23:27:28,633 - __main__ - INFO - Processing results: 4 successful, 0 failed
-2025-11-30 23:27:28,633 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-1-e4598236.png (48650 bytes)
-2025-11-30 23:27:28,634 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpitp2zt6_\images\diagram-1-e4598236.png
-2025-11-30 23:27:28,634 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-2-55b6d503.png (34785 bytes)
-2025-11-30 23:27:28,635 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpitp2zt6_\images\diagram-2-55b6d503.png
-2025-11-30 23:27:28,636 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-3-ec46cfbd.png (32965 bytes)
-2025-11-30 23:27:28,637 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpitp2zt6_\images\diagram-3-ec46cfbd.png
-2025-11-30 23:27:28,637 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-4-41baf30b.png (40323 bytes)
-2025-11-30 23:27:28,638 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpitp2zt6_\images\diagram-4-41baf30b.png
-2025-11-30 23:27:28,638 - __main__ - INFO - === Mermaid processing completed ===
-2025-11-30 23:27:28,639 - __main__ - INFO - Successfully processed mermaid blocks and updated input file for HEM_Analyzer_专利交底书.md
-2025-11-30 23:27:28,760 - __main__ - INFO - Pandoc conversion successful for HEM_Analyzer_专利交底书.md
-2025-11-30 23:27:28,770 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:27:28] "POST /api/convert HTTP/1.1" 200 -
-2025-11-30 23:30:29,993 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Scripts\\pip-script.py', reloading
-2025-11-30 23:30:30,013 - __main__ - INFO - Cleaned up temporary directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpj357hjfv
-2025-11-30 23:30:30,038 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:30:30,407 - __main__ - INFO - Pandoc is available
-2025-11-30 23:30:30,418 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:30:30,420 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:30:35,322 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\__init__.py', reloading
-2025-11-30 23:30:35,322 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\__init__.py', reloading
-2025-11-30 23:30:35,323 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\__init__.py', reloading
-2025-11-30 23:30:35,323 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\api.py', reloading
-2025-11-30 23:30:35,323 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\api.py', reloading
-2025-11-30 23:30:35,324 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\blkcntnr.py', reloading
-2025-11-30 23:30:35,324 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\blkcntnr.py', reloading
-2025-11-30 23:30:35,324 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\comments.py', reloading
-2025-11-30 23:30:35,325 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\comments.py', reloading
-2025-11-30 23:30:35,325 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\document.py', reloading
-2025-11-30 23:30:35,328 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\document.py', reloading
-2025-11-30 23:30:35,329 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\exceptions.py', reloading
-2025-11-30 23:30:35,329 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\exceptions.py', reloading
-2025-11-30 23:30:35,329 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\package.py', reloading
-2025-11-30 23:30:35,330 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\package.py', reloading
-2025-11-30 23:30:35,330 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\section.py', reloading
-2025-11-30 23:30:35,330 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\section.py', reloading
-2025-11-30 23:30:35,331 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\settings.py', reloading
-2025-11-30 23:30:35,331 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\settings.py', reloading
-2025-11-30 23:30:35,331 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\shape.py', reloading
-2025-11-30 23:30:35,332 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\shape.py', reloading
-2025-11-30 23:30:35,332 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\shared.py', reloading
-2025-11-30 23:30:35,332 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\shared.py', reloading
-2025-11-30 23:30:35,333 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\table.py', reloading
-2025-11-30 23:30:35,333 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\table.py', reloading
-2025-11-30 23:30:35,334 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\types.py', reloading
-2025-11-30 23:30:35,334 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\types.py', reloading
-2025-11-30 23:30:35,335 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\dml\\__init__.py', reloading
-2025-11-30 23:30:35,335 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\dml\\__init__.py', reloading
-2025-11-30 23:30:35,335 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\dml\\color.py', reloading
-2025-11-30 23:30:35,336 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\dml\\color.py', reloading
-2025-11-30 23:30:35,336 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\drawing\\__init__.py', reloading
-2025-11-30 23:30:35,336 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\drawing\\__init__.py', reloading
-2025-11-30 23:30:35,337 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\drawing\\__init__.py', reloading
-2025-11-30 23:30:35,337 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\base.py', reloading
-2025-11-30 23:30:35,337 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\dml.py', reloading
-2025-11-30 23:30:35,338 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\__init__.py', reloading
-2025-11-30 23:30:35,338 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\__init__.py', reloading
-2025-11-30 23:30:35,338 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\base.py', reloading
-2025-11-30 23:30:35,339 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\base.py', reloading
-2025-11-30 23:30:35,339 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\dml.py', reloading
-2025-11-30 23:30:35,339 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\dml.py', reloading
-2025-11-30 23:30:35,340 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\section.py', reloading
-2025-11-30 23:30:35,340 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\section.py', reloading
-2025-11-30 23:30:35,340 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\shape.py', reloading
-2025-11-30 23:30:35,341 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\shape.py', reloading
-2025-11-30 23:30:35,341 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\style.py', reloading
-2025-11-30 23:30:35,341 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\style.py', reloading
-2025-11-30 23:30:35,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\table.py', reloading
-2025-11-30 23:30:35,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\table.py', reloading
-2025-11-30 23:30:35,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\text.py', reloading
-2025-11-30 23:30:35,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\enum\\text.py', reloading
-2025-11-30 23:30:35,343 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\bmp.py', reloading
-2025-11-30 23:30:35,343 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\constants.py', reloading
-2025-11-30 23:30:35,343 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\__init__.py', reloading
-2025-11-30 23:30:35,343 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\__init__.py', reloading
-2025-11-30 23:30:35,344 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\__init__.py', reloading
-2025-11-30 23:30:35,344 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\bmp.py', reloading
-2025-11-30 23:30:35,344 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\bmp.py', reloading
-2025-11-30 23:30:35,345 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\constants.py', reloading
-2025-11-30 23:30:35,345 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\constants.py', reloading
-2025-11-30 23:30:35,345 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\exceptions.py', reloading
-2025-11-30 23:30:35,346 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\exceptions.py', reloading
-2025-11-30 23:30:35,346 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\gif.py', reloading
-2025-11-30 23:30:35,346 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\gif.py', reloading
-2025-11-30 23:30:35,347 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\helpers.py', reloading
-2025-11-30 23:30:35,347 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\helpers.py', reloading
-2025-11-30 23:30:35,347 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\image.py', reloading
-2025-11-30 23:30:35,348 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\image.py', reloading
-2025-11-30 23:30:35,348 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\jpeg.py', reloading
-2025-11-30 23:30:35,348 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\jpeg.py', reloading
-2025-11-30 23:30:35,348 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\png.py', reloading
-2025-11-30 23:30:35,349 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\png.py', reloading
-2025-11-30 23:30:35,349 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\tiff.py', reloading
-2025-11-30 23:30:35,349 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\image\\tiff.py', reloading
-2025-11-30 23:30:35,350 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\constants.py', reloading
-2025-11-30 23:30:35,350 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\coreprops.py', reloading
-2025-11-30 23:30:35,350 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\__init__.py', reloading
-2025-11-30 23:30:35,351 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\__init__.py', reloading
-2025-11-30 23:30:35,351 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\constants.py', reloading
-2025-11-30 23:30:35,351 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\constants.py', reloading
-2025-11-30 23:30:35,351 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\coreprops.py', reloading
-2025-11-30 23:30:35,352 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\coreprops.py', reloading
-2025-11-30 23:30:35,352 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\exceptions.py', reloading
-2025-11-30 23:30:35,352 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\exceptions.py', reloading
-2025-11-30 23:30:35,352 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\oxml.py', reloading
-2025-11-30 23:30:35,353 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\oxml.py', reloading
-2025-11-30 23:30:35,353 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\package.py', reloading
-2025-11-30 23:30:35,353 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\package.py', reloading
-2025-11-30 23:30:35,354 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\packuri.py', reloading
-2025-11-30 23:30:35,354 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\packuri.py', reloading
-2025-11-30 23:30:35,354 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\part.py', reloading
-2025-11-30 23:30:35,355 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\part.py', reloading
-2025-11-30 23:30:35,355 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\phys_pkg.py', reloading
-2025-11-30 23:30:35,356 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\phys_pkg.py', reloading
-2025-11-30 23:30:35,356 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\pkgreader.py', reloading
-2025-11-30 23:30:35,356 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\pkgreader.py', reloading
-2025-11-30 23:30:35,357 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\pkgwriter.py', reloading
-2025-11-30 23:30:35,357 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\pkgwriter.py', reloading
-2025-11-30 23:30:35,357 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\rel.py', reloading
-2025-11-30 23:30:35,358 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\rel.py', reloading
-2025-11-30 23:30:35,358 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\shared.py', reloading
-2025-11-30 23:30:35,359 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\shared.py', reloading
-2025-11-30 23:30:35,359 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\spec.py', reloading
-2025-11-30 23:30:35,359 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\spec.py', reloading
-2025-11-30 23:30:35,360 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\parts\\coreprops.py', reloading
-2025-11-30 23:30:35,360 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\parts\\__init__.py', reloading
-2025-11-30 23:30:35,360 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\parts\\__init__.py', reloading
-2025-11-30 23:30:35,361 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\parts\\coreprops.py', reloading
-2025-11-30 23:30:35,361 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\opc\\parts\\coreprops.py', reloading
-2025-11-30 23:30:35,361 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\comments.py', reloading
-2025-11-30 23:30:35,361 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\__init__.py', reloading
-2025-11-30 23:30:35,362 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\__init__.py', reloading
-2025-11-30 23:30:35,362 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\__init__.py', reloading
-2025-11-30 23:30:35,362 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\comments.py', reloading
-2025-11-30 23:30:35,362 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\comments.py', reloading
-2025-11-30 23:30:35,363 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\coreprops.py', reloading
-2025-11-30 23:30:35,363 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\coreprops.py', reloading
-2025-11-30 23:30:35,364 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\document.py', reloading
-2025-11-30 23:30:35,364 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\document.py', reloading
-2025-11-30 23:30:35,364 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\drawing.py', reloading
-2025-11-30 23:30:35,365 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\drawing.py', reloading
-2025-11-30 23:30:35,365 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\exceptions.py', reloading
-2025-11-30 23:30:35,365 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\exceptions.py', reloading
-2025-11-30 23:30:35,366 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\ns.py', reloading
-2025-11-30 23:30:35,366 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\ns.py', reloading
-2025-11-30 23:30:35,366 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\numbering.py', reloading
-2025-11-30 23:30:35,367 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\numbering.py', reloading
-2025-11-30 23:30:35,367 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\parser.py', reloading
-2025-11-30 23:30:35,367 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\parser.py', reloading
-2025-11-30 23:30:35,368 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\section.py', reloading
-2025-11-30 23:30:35,368 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\section.py', reloading
-2025-11-30 23:30:35,368 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\settings.py', reloading
-2025-11-30 23:30:35,368 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\settings.py', reloading
-2025-11-30 23:30:35,369 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\shape.py', reloading
-2025-11-30 23:30:35,369 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\shape.py', reloading
-2025-11-30 23:30:35,369 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\shared.py', reloading
-2025-11-30 23:30:35,369 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\shared.py', reloading
-2025-11-30 23:30:35,370 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\simpletypes.py', reloading
-2025-11-30 23:30:35,370 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\simpletypes.py', reloading
-2025-11-30 23:30:35,370 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\styles.py', reloading
-2025-11-30 23:30:35,370 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\styles.py', reloading
-2025-11-30 23:30:35,371 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\table.py', reloading
-2025-11-30 23:30:35,371 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\table.py', reloading
-2025-11-30 23:30:35,372 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\xmlchemy.py', reloading
-2025-11-30 23:30:35,372 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\xmlchemy.py', reloading
-2025-11-30 23:30:35,373 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\__init__.py', reloading
-2025-11-30 23:30:35,373 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\__init__.py', reloading
-2025-11-30 23:30:35,373 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\font.py', reloading
-2025-11-30 23:30:35,373 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\font.py', reloading
-2025-11-30 23:30:35,374 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\hyperlink.py', reloading
-2025-11-30 23:30:35,374 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\hyperlink.py', reloading
-2025-11-30 23:30:35,374 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\pagebreak.py', reloading
-2025-11-30 23:30:35,375 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\pagebreak.py', reloading
-2025-11-30 23:30:35,375 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\paragraph.py', reloading
-2025-11-30 23:30:35,376 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\paragraph.py', reloading
-2025-11-30 23:30:35,376 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\parfmt.py', reloading
-2025-11-30 23:30:35,376 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\parfmt.py', reloading
-2025-11-30 23:30:35,377 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\run.py', reloading
-2025-11-30 23:30:35,377 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\oxml\\text\\run.py', reloading
-2025-11-30 23:30:35,377 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\comments.py', reloading
-2025-11-30 23:30:35,378 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\document.py', reloading
-2025-11-30 23:30:35,378 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\__init__.py', reloading
-2025-11-30 23:30:35,378 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\__init__.py', reloading
-2025-11-30 23:30:35,379 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\comments.py', reloading
-2025-11-30 23:30:35,379 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\comments.py', reloading
-2025-11-30 23:30:35,379 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\document.py', reloading
-2025-11-30 23:30:35,380 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\document.py', reloading
-2025-11-30 23:30:35,380 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\hdrftr.py', reloading
-2025-11-30 23:30:35,381 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\hdrftr.py', reloading
-2025-11-30 23:30:35,381 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\image.py', reloading
-2025-11-30 23:30:35,381 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\image.py', reloading
-2025-11-30 23:30:35,381 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\numbering.py', reloading
-2025-11-30 23:30:35,382 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\numbering.py', reloading
-2025-11-30 23:30:35,382 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\settings.py', reloading
-2025-11-30 23:30:35,382 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\settings.py', reloading
-2025-11-30 23:30:35,382 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\story.py', reloading
-2025-11-30 23:30:35,383 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\story.py', reloading
-2025-11-30 23:30:35,383 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\styles.py', reloading
-2025-11-30 23:30:35,383 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\parts\\styles.py', reloading
-2025-11-30 23:30:35,383 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\styles\\latent.py', reloading
-2025-11-30 23:30:35,384 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\styles\\__init__.py', reloading
-2025-11-30 23:30:35,384 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\styles\\__init__.py', reloading
-2025-11-30 23:30:35,384 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\styles\\__init__.py', reloading
-2025-11-30 23:30:35,385 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\styles\\latent.py', reloading
-2025-11-30 23:30:35,385 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\styles\\latent.py', reloading
-2025-11-30 23:30:35,385 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\styles\\style.py', reloading
-2025-11-30 23:30:35,386 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\styles\\style.py', reloading
-2025-11-30 23:30:35,386 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\styles\\styles.py', reloading
-2025-11-30 23:30:35,386 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\styles\\styles.py', reloading
-2025-11-30 23:30:35,392 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\font.py', reloading
-2025-11-30 23:30:35,392 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\hyperlink.py', reloading
-2025-11-30 23:30:35,392 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\pagebreak.py', reloading
-2025-11-30 23:30:35,392 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\paragraph.py', reloading
-2025-11-30 23:30:35,393 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\parfmt.py', reloading
-2025-11-30 23:30:35,393 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\run.py', reloading
-2025-11-30 23:30:35,393 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\tabstops.py', reloading
-2025-11-30 23:30:35,393 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\__init__.py', reloading
-2025-11-30 23:30:35,393 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\__init__.py', reloading
-2025-11-30 23:30:35,394 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\font.py', reloading
-2025-11-30 23:30:35,394 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\font.py', reloading
-2025-11-30 23:30:35,394 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\hyperlink.py', reloading
-2025-11-30 23:30:35,394 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\hyperlink.py', reloading
-2025-11-30 23:30:35,395 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\pagebreak.py', reloading
-2025-11-30 23:30:35,395 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\pagebreak.py', reloading
-2025-11-30 23:30:35,396 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\paragraph.py', reloading
-2025-11-30 23:30:35,397 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\paragraph.py', reloading
-2025-11-30 23:30:35,397 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\parfmt.py', reloading
-2025-11-30 23:30:35,398 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\parfmt.py', reloading
-2025-11-30 23:30:35,398 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\run.py', reloading
-2025-11-30 23:30:35,398 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\run.py', reloading
-2025-11-30 23:30:35,398 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\tabstops.py', reloading
-2025-11-30 23:30:35,399 - werkzeug - INFO -  * Detected change in 'C:\\Users\\BJB110\\anaconda3\\Lib\\site-packages\\docx\\text\\tabstops.py', reloading
-2025-11-30 23:30:35,466 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:30:35,749 - __main__ - INFO - Pandoc is available
-2025-11-30 23:30:35,760 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:30:35,762 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:43:14,787 - __main__ - INFO - Pandoc is available
-2025-11-30 23:43:19,940 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://26.26.26.1:5000
-2025-11-30 23:43:19,940 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-11-30 23:43:19,949 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
-2025-11-30 23:43:20,231 - __main__ - INFO - Pandoc is available
-2025-11-30 23:43:20,241 - werkzeug - WARNING -  * Debugger is active!
-2025-11-30 23:43:20,244 - werkzeug - INFO -  * Debugger PIN: 637-448-104
-2025-11-30 23:43:28,935 - __main__ - INFO - Starting conversion for file: test_mermaid_new.md
-2025-11-30 23:43:28,937 - __main__ - INFO - Starting Mermaid processing for file: test_mermaid_new.md
-2025-11-30 23:43:28,938 - __main__ - INFO - Successfully read markdown file, length: 336 characters
-2025-11-30 23:43:28,938 - __main__ - INFO - Mermaid code blocks detected in the input
-2025-11-30 23:43:28,938 - __main__ - INFO - === Starting Mermaid processing ===
-2025-11-30 23:43:28,938 - __main__ - INFO - Work directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpv9aigcc3
-2025-11-30 23:43:28,938 - __main__ - INFO - Input text length: 336 characters
-2025-11-30 23:43:28,938 - __main__ - INFO - Test mode: false
-2025-11-30 23:43:28,938 - __main__ - INFO - Workdir images directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpv9aigcc3\images
-2025-11-30 23:43:28,938 - __main__ - INFO - MermaidProcessor initialized successfully
-2025-11-30 23:43:28,938 - mermaid_processor - INFO - Extracted Mermaid block diagram-1-5f0b6f7a: flowchart LR
-    Start --> Process
-    Process -->...
-2025-11-30 23:43:28,939 - mermaid_processor - INFO - Extracted Mermaid block diagram-2-3a09ca2f: flowchart TD
-    A{Is it working?} -->|Yes| B[Succ...
-2025-11-30 23:43:28,939 - mermaid_processor - INFO - Found 2 Mermaid diagram(s)
-2025-11-30 23:43:28,939 - __main__ - INFO - Extracted 2 Mermaid blocks
-2025-11-30 23:43:28,939 - __main__ - INFO - Block 1: diagram-1-5f0b6f7a
-2025-11-30 23:43:28,939 - __main__ - INFO -   - Filename: diagram-1-5f0b6f7a.png
-2025-11-30 23:43:28,939 - __main__ - INFO -   - Code preview: flowchart LR
-    Start --> Process
-    Process --> End...
-2025-11-30 23:43:28,939 - __main__ - INFO - Block 2: diagram-2-3a09ca2f
-2025-11-30 23:43:28,939 - __main__ - INFO -   - Filename: diagram-2-3a09ca2f.png
-2025-11-30 23:43:28,939 - __main__ - INFO -   - Code preview: flowchart TD
-    A{Is it working?} -->|Yes| B[Success]
-    A -->|No| C[Debug]
-    C --> A...
-2025-11-30 23:43:28,939 - mermaid_processor - INFO - Mermaid images will be saved to: D:\ProjectPackage\DocGenerator\images
-2025-11-30 23:43:28,939 - mermaid_processor - INFO - Processing Mermaid block 1/2: diagram-1-5f0b6f7a
-2025-11-30 23:43:28,939 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpom0kpzzb.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-1-5f0b6f7a.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:43:30,293 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-1-5f0b6f7a.png (2223 bytes)
-2025-11-30 23:43:30,294 - mermaid_processor - INFO - ✓ Successfully converted diagram-1-5f0b6f7a
-2025-11-30 23:43:30,294 - mermaid_processor - INFO - Processing Mermaid block 2/2: diagram-2-3a09ca2f
-2025-11-30 23:43:30,294 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpsomihyce.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-2-3a09ca2f.png -t neutral -b white -w 800 -H 600
-2025-11-30 23:43:31,572 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-2-3a09ca2f.png (7252 bytes)
-2025-11-30 23:43:31,572 - mermaid_processor - INFO - ✓ Successfully converted diagram-2-3a09ca2f
-2025-11-30 23:43:31,572 - mermaid_processor - INFO - Mermaid processing completed: 2 successful, 0 failed
-2025-11-30 23:43:31,572 - __main__ - INFO - Processing results: 2 successful, 0 failed
-2025-11-30 23:43:31,572 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-1-5f0b6f7a.png (2223 bytes)
-2025-11-30 23:43:31,573 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpv9aigcc3\images\diagram-1-5f0b6f7a.png
-2025-11-30 23:43:31,574 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-2-3a09ca2f.png (7252 bytes)
-2025-11-30 23:43:31,574 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpv9aigcc3\images\diagram-2-3a09ca2f.png
-2025-11-30 23:43:31,574 - __main__ - INFO - === Mermaid processing completed ===
-2025-11-30 23:43:31,575 - __main__ - INFO - Successfully processed mermaid blocks and updated input file for test_mermaid_new.md
-2025-11-30 23:43:31,575 - __main__ - INFO - Original working directory: D:\ProjectPackage\DocGenerator\backend
-2025-11-30 23:43:31,575 - __main__ - INFO - Changing to Pandoc working directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpv9aigcc3
-2025-11-30 23:43:31,575 - __main__ - INFO - Input file: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpv9aigcc3\input.md
-2025-11-30 23:43:31,575 - __main__ - INFO - Output file: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpv9aigcc3\output.docx
-2025-11-30 23:43:31,575 - __main__ - INFO - Found 2 images in working directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmpv9aigcc3\images
-2025-11-30 23:43:31,575 - __main__ - INFO -   - diagram-1-5f0b6f7a.png
-2025-11-30 23:43:31,575 - __main__ - INFO -   - diagram-2-3a09ca2f.png
-2025-11-30 23:43:31,650 - __main__ - INFO - Pandoc conversion successful for test_mermaid_new.md
-2025-11-30 23:43:31,650 - __main__ - INFO - Pandoc stdout: 
-2025-11-30 23:43:31,650 - __main__ - INFO - Restored working directory to: D:\ProjectPackage\DocGenerator\backend
-2025-11-30 23:43:31,660 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:43:31] "POST /api/convert HTTP/1.1" 200 -
+2025-11-30 23:54:35,276 - mermaid_processor - INFO - Mermaid images will be saved to: D:\ProjectPackage\DocGenerator\images
+2025-11-30 23:54:35,276 - mermaid_processor - INFO - Processing Mermaid block 1/4: diagram-1-91a5c3ac
+2025-11-30 23:54:35,277 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpq5qhzzko.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-1-91a5c3ac.png -t neutral -b white -w 800 -H 600
+2025-11-30 23:54:36,670 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-1-91a5c3ac.png (48650 bytes)
+2025-11-30 23:54:36,670 - mermaid_processor - INFO - ✓ Successfully converted diagram-1-91a5c3ac
+2025-11-30 23:54:36,671 - mermaid_processor - INFO - Processing Mermaid block 2/4: diagram-2-4b6c98ed
+2025-11-30 23:54:36,671 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpbjo3kuui.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-2-4b6c98ed.png -t neutral -b white -w 800 -H 600
+2025-11-30 23:54:38,015 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-2-4b6c98ed.png (34785 bytes)
+2025-11-30 23:54:38,015 - mermaid_processor - INFO - ✓ Successfully converted diagram-2-4b6c98ed
+2025-11-30 23:54:38,016 - mermaid_processor - INFO - Processing Mermaid block 3/4: diagram-3-2271bf5a
+2025-11-30 23:54:38,016 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpv2uheakb.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-3-2271bf5a.png -t neutral -b white -w 800 -H 600
+2025-11-30 23:54:39,377 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-3-2271bf5a.png (32965 bytes)
+2025-11-30 23:54:39,378 - mermaid_processor - INFO - ✓ Successfully converted diagram-3-2271bf5a
+2025-11-30 23:54:39,378 - mermaid_processor - INFO - Processing Mermaid block 4/4: diagram-4-83c42cc2
+2025-11-30 23:54:39,379 - mermaid_processor - INFO - Running Mermaid CLI: C:\Users\BJB110\AppData\Roaming\npm\mmdc.cmd -i C:\Users\BJB110\AppData\Local\Temp\tmpkq7e8t9e.mmd -o D:\ProjectPackage\DocGenerator\images\diagram-4-83c42cc2.png -t neutral -b white -w 800 -H 600
+2025-11-30 23:54:40,735 - mermaid_processor - INFO - ✓ Successfully generated image: D:\ProjectPackage\DocGenerator\images\diagram-4-83c42cc2.png (40323 bytes)
+2025-11-30 23:54:40,736 - mermaid_processor - INFO - ✓ Successfully converted diagram-4-83c42cc2
+2025-11-30 23:54:40,736 - mermaid_processor - INFO - Mermaid processing completed: 4 successful, 0 failed
+2025-11-30 23:54:40,736 - __main__ - INFO - Processing results: 4 successful, 0 failed
+2025-11-30 23:54:40,736 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-1-91a5c3ac.png (48650 bytes)
+2025-11-30 23:54:40,737 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmps1d9hp67\images\diagram-1-91a5c3ac.png
+2025-11-30 23:54:40,738 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-2-4b6c98ed.png (34785 bytes)
+2025-11-30 23:54:40,738 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmps1d9hp67\images\diagram-2-4b6c98ed.png
+2025-11-30 23:54:40,738 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-3-2271bf5a.png (32965 bytes)
+2025-11-30 23:54:40,739 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmps1d9hp67\images\diagram-3-2271bf5a.png
+2025-11-30 23:54:40,740 - __main__ - INFO - ✓ Generated project image: D:\ProjectPackage\DocGenerator\images\diagram-4-83c42cc2.png (40323 bytes)
+2025-11-30 23:54:40,740 - __main__ - INFO - ✓ Copied image to workdir: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmps1d9hp67\images\diagram-4-83c42cc2.png
+2025-11-30 23:54:40,740 - __main__ - INFO - === Mermaid processing completed ===
+2025-11-30 23:54:40,741 - __main__ - INFO - Successfully processed mermaid blocks and updated input file for HEM_Analyzer_专利交底书.md
+2025-11-30 23:54:40,741 - __main__ - INFO - Using template: 专利交底书模板.docx
+2025-11-30 23:54:40,741 - __main__ - INFO - Original working directory: D:\ProjectPackage\DocGenerator\backend
+2025-11-30 23:54:40,741 - __main__ - INFO - Changing to Pandoc working directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmps1d9hp67
+2025-11-30 23:54:40,741 - __main__ - INFO - Input file: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmps1d9hp67\input.md
+2025-11-30 23:54:40,741 - __main__ - INFO - Output file: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmps1d9hp67\output.docx
+2025-11-30 23:54:40,742 - __main__ - INFO - Found 4 images in working directory: C:\Users\BJB110\AppData\Local\Temp\docgen_uploads\tmps1d9hp67\images
+2025-11-30 23:54:40,742 - __main__ - INFO -   - diagram-1-91a5c3ac.png
+2025-11-30 23:54:40,742 - __main__ - INFO -   - diagram-2-4b6c98ed.png
+2025-11-30 23:54:40,742 - __main__ - INFO -   - diagram-3-2271bf5a.png
+2025-11-30 23:54:40,880 - __main__ - INFO - Pandoc conversion successful for HEM_Analyzer_专利交底书.md
+2025-11-30 23:54:40,880 - __main__ - INFO - Pandoc stdout: 
+2025-11-30 23:54:40,880 - __main__ - INFO - Restored working directory to: D:\ProjectPackage\DocGenerator\backend
+2025-11-30 23:54:40,892 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 23:54:40] "POST /api/convert HTTP/1.1" 200 -
